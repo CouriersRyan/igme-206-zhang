@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\refint\HelloGit.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\obj\Debug\net8.0\ref\HelloGit.dll
