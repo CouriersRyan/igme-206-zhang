@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\PE_StatementsAndExpressions_RZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1BFB19-F60D-4F6C-A9F0-9BEDAF95BD69}|PE_StatementsAndExpressions_RZ\\PE_StatementsAndExpressions_RZ.csproj|d:\\profiles\\rlz2910\\source\\repos\\pe_statementsandexpressions_rz\\pe_statementsandexpressions_rz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1BFB19-F60D-4F6C-A9F0-9BEDAF95BD69}|PE_StatementsAndExpressions_RZ\\PE_StatementsAndExpressions_RZ.csproj|solutionrelative:pe_statementsandexpressions_rz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1BFB19-F60D-4F6C-A9F0-9BEDAF95BD69}|PE_StatementsAndExpressions_RZ\\PE_StatementsExpressions_Zhang.csproj|d:\\profiles\\rlz2910\\source\\repos\\pe_statementsandexpressions_rz\\pe_statementsandexpressions_rz\\pe_statementsexpressions_zhang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C1BFB19-F60D-4F6C-A9F0-9BEDAF95BD69}|PE_StatementsAndExpressions_RZ\\PE_StatementsExpressions_Zhang.csproj|solutionrelative:pe_statementsandexpressions_rz\\pe_statementsexpressions_zhang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PE_StatementsExpressions_Zhang.csproj",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\PE_StatementsAndExpressions_RZ\\PE_StatementsAndExpressions_RZ\\PE_StatementsExpressions_Zhang.csproj",
+              "RelativeDocumentMoniker": "PE_StatementsAndExpressions_RZ\\PE_StatementsExpressions_Zhang.csproj",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\PE_StatementsAndExpressions_RZ\\PE_StatementsAndExpressions_RZ\\PE_StatementsExpressions_Zhang.csproj",
+              "RelativeToolTip": "PE_StatementsAndExpressions_RZ\\PE_StatementsExpressions_Zhang.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T20:25:20.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\PE_StatementsAndExpressions_RZ\\PE_StatementsAndExpressions_RZ\\Program.cs",
+              "RelativeDocumentMoniker": "PE_StatementsAndExpressions_RZ\\Program.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\PE_StatementsAndExpressions_RZ\\PE_StatementsAndExpressions_RZ\\Program.cs",
+              "RelativeToolTip": "PE_StatementsAndExpressions_RZ\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T20:23:04.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
