@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\HelloGit\\HelloGit\\HelloGit.csproj": {}
+    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\HelloGit\\HelloGit\\HelloGit.csproj": {}
   },
   "projects": {
-    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\HelloGit\\HelloGit\\HelloGit.csproj": {
+    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\HelloGit\\HelloGit\\HelloGit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\HelloGit\\HelloGit\\HelloGit.csproj",
+        "projectUniqueName": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\HelloGit\\HelloGit\\HelloGit.csproj",
         "projectName": "HelloGit",
-        "projectPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\HelloGit\\HelloGit\\HelloGit.csproj",
+        "projectPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\HelloGit\\HelloGit\\HelloGit.csproj",
         "packagesPath": "D:\\Profiles\\rlz2910\\.nuget\\packages\\",
-        "outputPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\HelloGit\\HelloGit\\obj\\",
+        "outputPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\HelloGit\\HelloGit\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",

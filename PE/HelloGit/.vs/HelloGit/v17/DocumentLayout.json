@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\HelloGit\\",
+  "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\HelloGit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{255441B1-75CB-4814-9D20-C3FBD45D5EB2}|HelloGit\\HelloGit.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\hellogit\\hellogit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{255441B1-75CB-4814-9D20-C3FBD45D5EB2}|HelloGit\\HelloGit.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\hellogit\\hellogit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{255441B1-75CB-4814-9D20-C3FBD45D5EB2}|HelloGit\\HelloGit.csproj|solutionrelative:hellogit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\HelloGit\\HelloGit\\Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\HelloGit\\HelloGit\\Program.cs",
               "RelativeDocumentMoniker": "HelloGit\\Program.cs",
-              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\HelloGit\\HelloGit\\Program.cs*",
-              "RelativeToolTip": "HelloGit\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\HelloGit\\HelloGit\\Program.cs",
+              "RelativeToolTip": "HelloGit\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T20:31:25.595Z",
               "EditorCaption": ""

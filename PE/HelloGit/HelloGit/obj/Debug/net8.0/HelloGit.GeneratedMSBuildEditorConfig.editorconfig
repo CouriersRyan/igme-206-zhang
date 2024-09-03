@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HelloGit
-build_property.ProjectDir = D:\Profiles\rlz2910\source\repos\igme-206-zhang\HelloGit\HelloGit\
+build_property.ProjectDir = D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\HelloGit\HelloGit\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
