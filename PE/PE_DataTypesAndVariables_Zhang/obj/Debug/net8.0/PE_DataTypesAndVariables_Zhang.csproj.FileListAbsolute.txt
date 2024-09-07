@@ -1,0 +1,14 @@
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\bin\Debug\net8.0\PE_DataTypesAndVariables_Zhang.exe
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\bin\Debug\net8.0\PE_DataTypesAndVariables_Zhang.deps.json
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\bin\Debug\net8.0\PE_DataTypesAndVariables_Zhang.runtimeconfig.json
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\bin\Debug\net8.0\PE_DataTypesAndVariables_Zhang.dll
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\bin\Debug\net8.0\PE_DataTypesAndVariables_Zhang.pdb
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\PE_DataTypesAndVariables_Zhang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\PE_DataTypesAndVariables_Zhang.AssemblyInfoInputs.cache
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\PE_DataTypesAndVariables_Zhang.AssemblyInfo.cs
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\PE_DataTypesAndVariables_Zhang.csproj.CoreCompileInputs.cache
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\PE_DataTypesAndVariables_Zhang.dll
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\refint\PE_DataTypesAndVariables_Zhang.dll
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\PE_DataTypesAndVariables_Zhang.pdb
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\PE_DataTypesAndVariables_Zhang.genruntimeconfig.cache
+C:\Users\epica\source\repos\PE_DataTypesAndVariables_Zhang\obj\Debug\net8.0\ref\PE_DataTypesAndVariables_Zhang.dll
