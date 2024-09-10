@@ -48,14 +48,18 @@ namespace HW_CharacterStory_Zhang
             Console.WriteLine();
             Console.WriteLine();
 
+
             // Prints Part 2, with character actions and calculations.
             // At least 5 unique mathematical expressions and 5 unique values printed.
             // At least 1 use of % operator
             // At least 2 must update character's original stats
+
+            // Header and intro to the action scene.
             Console.WriteLine("==== The Chase ====");
             Console.WriteLine(characterName + " is running away at a speed of " + BaseSpeed + "!");
             Console.WriteLine();
 
+            // Story Action 1
             Console.WriteLine("Oh no! The Hitman Shark is catching up!");
             // Mathematical Expression 1 & Update to Character Stats 1
             speedBoosts--;
@@ -64,6 +68,7 @@ namespace HW_CharacterStory_Zhang
             Console.WriteLine(characterName + "'s has been increased to " + (BaseSpeed * SpeedBoostModifier) + ".");
             Console.WriteLine();
 
+            // Story Action 2
             Console.WriteLine(characterName + " runs into a sealed off cave! He uses " + equipment + " to make an exit!");
             // Mathematical Expression 3 & Update to Character Stats 2
             currentHealth -= DynamitePower / 2;
@@ -73,12 +78,14 @@ namespace HW_CharacterStory_Zhang
             Console.WriteLine("He takes more damage! The Hitman Shark takes " + (DynamitePower / 2  +  DynamitePower % 2) + " damage.");
             Console.WriteLine();
 
+            // Story Action 3
             Console.WriteLine(characterName + " escapes the Hitman Shark.");
             // Mathematical Expression 5 & Update to Character Stats 3
             mapCompletion += (BaseSpeed * SpeedBoostModifier) - (MaxHealth - currentHealth);
             Console.WriteLine("Map Completion status has increased! New Completion Rating: " + mapCompletion + "%");
             Console.WriteLine();
             Console.WriteLine();
+
 
             // Prints the conclusion and final values for the character's stats.
 
