@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Ryan L. Zhang
+ * HW 1: Character Story
+ * https://docs.google.com/document/d/1FL56QqpNtMweNRlBtU3jUyMp3C6c7ABd8IhM5ifgfF4/edit?usp=sharing
+ */
+using System;
 
 namespace HW_CharacterStory_Zhang
 {
@@ -13,7 +18,7 @@ namespace HW_CharacterStory_Zhang
             const double MaxHealth = 20.0;
             const int BaseSpeed = 10;
             const int SpeedBoostModifier = 2;
-            const double DynamitePower = 15.0;
+            const double DynamitePower = 15.5;
 
             // Starting Character Stats
             string characterName = "Fish Omega-3";

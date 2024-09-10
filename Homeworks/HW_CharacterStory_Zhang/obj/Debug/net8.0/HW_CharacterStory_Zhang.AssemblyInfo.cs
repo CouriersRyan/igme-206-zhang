@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW_CharacterStory_Zhang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+564e19c2f5a4192d7875ef67549e82152447828e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e7ced5dddf948b1f88f1780884c174d61bd80e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW_CharacterStory_Zhang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW_CharacterStory_Zhang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
