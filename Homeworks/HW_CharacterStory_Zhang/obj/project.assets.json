@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\epica\\.nuget\\packages\\": {}
+    "D:\\Profiles\\rlz2910\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_CharacterStory_Zhang\\HW_CharacterStory_Zhang.csproj",
+      "projectUniqueName": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_CharacterStory_Zhang\\HW_CharacterStory_Zhang.csproj",
       "projectName": "HW_CharacterStory_Zhang",
-      "projectPath": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_CharacterStory_Zhang\\HW_CharacterStory_Zhang.csproj",
-      "packagesPath": "C:\\Users\\epica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_CharacterStory_Zhang\\obj\\",
+      "projectPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_CharacterStory_Zhang\\HW_CharacterStory_Zhang.csproj",
+      "packagesPath": "D:\\Profiles\\rlz2910\\.nuget\\packages\\",
+      "outputPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_CharacterStory_Zhang\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\epica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

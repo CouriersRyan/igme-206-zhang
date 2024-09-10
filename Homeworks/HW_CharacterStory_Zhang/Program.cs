@@ -18,7 +18,7 @@ namespace HW_CharacterStory_Zhang
             const double MaxHealth = 20.0;
             const int BaseSpeed = 10;
             const int SpeedBoostModifier = 2;
-            const double DynamitePower = 15.5;
+            const int DynamitePower = 15;
 
             // Starting Character Stats
             string characterName = "Fish Omega-3";
@@ -66,16 +66,16 @@ namespace HW_CharacterStory_Zhang
 
             Console.WriteLine(characterName + " runs into a sealed off cave! He uses " + equipment + " to make an exit!");
             // Mathematical Expression 3 & Update to Character Stats 2
-            currentHealth -= DynamitePower;
-            Console.WriteLine(characterName + " takes " + DynamitePower + " damage from the blast! His health has been reduced to " + currentHealth + ".");
-            Console.WriteLine("The Hitman Shark was also caught in the blast! He resists the damage!");
+            currentHealth -= DynamitePower / 2;
+            Console.WriteLine(characterName + " and Hitman Shark were both caught in the blast! They split the damage!");
+            Console.WriteLine(characterName + " takes " + DynamitePower / 2 + " damage from the blast! His health has been reduced to " + currentHealth + ".");
             // Mathematical Expression 4 & '%' operator use
-            Console.WriteLine("The Hitman Shark takes " + (DynamitePower % 4) + " damage.");
+            Console.WriteLine("He takes more damage! The Hitman Shark takes " + (DynamitePower / 2  +  DynamitePower % 2) + " damage.");
             Console.WriteLine();
 
             Console.WriteLine(characterName + " escapes the Hitman Shark.");
             // Mathematical Expression 5 & Update to Character Stats 3
-            mapCompletion += (BaseSpeed * SpeedBoostModifier) - DynamitePower;
+            mapCompletion += (BaseSpeed * SpeedBoostModifier) - (MaxHealth - currentHealth);
             Console.WriteLine("Map Completion status has increased! New Completion Rating: " + mapCompletion + "%");
             Console.WriteLine();
             Console.WriteLine();
