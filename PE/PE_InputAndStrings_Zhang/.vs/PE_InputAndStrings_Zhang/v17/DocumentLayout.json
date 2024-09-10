@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_InputAndStrings_Zhang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80B7D185-9BC5-4AF3-8267-1F009FB178D6}|PE_InputAndStrings_Zhang\\PE_InputAndStrings_Zhang.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_inputandstrings_zhang\\pe_inputandstrings_zhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B7D185-9BC5-4AF3-8267-1F009FB178D6}|PE_InputAndStrings_Zhang\\PE_InputAndStrings_Zhang.csproj|solutionrelative:pe_inputandstrings_zhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_InputAndStrings_Zhang\\PE_InputAndStrings_Zhang\\Program.cs",
+              "RelativeDocumentMoniker": "PE_InputAndStrings_Zhang\\Program.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_InputAndStrings_Zhang\\PE_InputAndStrings_Zhang\\Program.cs",
+              "RelativeToolTip": "PE_InputAndStrings_Zhang\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:34:28.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
