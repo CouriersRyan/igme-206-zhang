@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_CastingMathAndDocumentation_Zhang")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+293d8bda0ef0b6eb0e42da95e83b59242fc67616")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_CastingMathAndDocumentation_Zhang")]

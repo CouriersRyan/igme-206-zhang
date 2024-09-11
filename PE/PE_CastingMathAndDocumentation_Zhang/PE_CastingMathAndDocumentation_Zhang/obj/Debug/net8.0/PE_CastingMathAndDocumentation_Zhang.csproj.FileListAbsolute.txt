@@ -1,0 +1,15 @@
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\bin\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.exe
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\bin\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.deps.json
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\bin\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.runtimeconfig.json
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\bin\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.dll
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\bin\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.pdb
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.AssemblyInfoInputs.cache
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.AssemblyInfo.cs
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.csproj.CoreCompileInputs.cache
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.sourcelink.json
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.dll
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\refint\PE_CastingMathAndDocumentation_Zhang.dll
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.pdb
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\PE_CastingMathAndDocumentation_Zhang.genruntimeconfig.cache
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\PE\PE_CastingMathAndDocumentation_Zhang\PE_CastingMathAndDocumentation_Zhang\obj\Debug\net8.0\ref\PE_CastingMathAndDocumentation_Zhang.dll

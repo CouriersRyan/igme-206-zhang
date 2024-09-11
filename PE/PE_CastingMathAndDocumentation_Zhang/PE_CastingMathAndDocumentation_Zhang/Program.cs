@@ -20,8 +20,8 @@ namespace PE_CastingMathAndDocumentation_Zhang
             int y2 = 28;
 
             // 4 floating-point number variables
-            double a = 7.9f;
-            double b = 2.25f;
+            double a = 7.9;
+            double b = 2.25;
             double angleDegrees = 60;
             double angleRadians = angleDegrees * Math.PI / 180;
 
@@ -70,20 +70,28 @@ namespace PE_CastingMathAndDocumentation_Zhang
 
             //  Division & Modulus
             Console.WriteLine("--- DIVISION and MODULUS ---");
-            Console.WriteLine(playerName + " has played a game for " + totalHours);
+            Console.WriteLine(playerName + " has played a game for " + totalHours + "hours.");
             Console.WriteLine("They have played for " + timePlayedDays + " days and " + timePlayedHours + " hours.");
             Console.WriteLine();
 
             //  Sine and Cosine
             Console.WriteLine("--- SINE and COSINE ---");
+            Console.WriteLine(angleDegrees + " degrees is " + angleRadians + " radians.");
+            Console.WriteLine("The sine is " + sine);
+            Console.WriteLine("The cosine is " + cosine);
             Console.WriteLine();
 
             //  Distance
             Console.WriteLine("--- DISTANCE ---");
+            Console.WriteLine("Point One: (" + x1 + "," + y1 + ")");
+            Console.WriteLine("Point One: (" + x2 + "," + y2 + ")");
+            Console.WriteLine("The distance between these points is " + distanceBetweenPoints);
             Console.WriteLine();
 
             //  Rounding
             Console.WriteLine("--- ROUNDING ---");
+            Console.WriteLine("The distance is " + distanceBetweenPoints + ", which is approximately " + nearestWhole +
+                " units, or " + nearestThousandths + " to be more precise.");
             Console.WriteLine();
         }
     }
