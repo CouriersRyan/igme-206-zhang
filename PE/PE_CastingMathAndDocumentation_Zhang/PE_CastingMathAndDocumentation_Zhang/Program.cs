@@ -8,20 +8,21 @@ namespace PE_CastingMathAndDocumentation_Zhang
 
     internal class Program
     {
+        // Does calculations with several given 
         static void Main(string[] args)
         {
             String playerName = "Bobby McBobberson";
 
             // 5 whole number variables
             int totalHours = 274;
-            int x1 = -13;
-            int y1 = 51;
-            int x2 = 17;
-            int y2 = 28;
+            int point1X = -13;
+            int point1Y = 51;
+            int point2X = 17;
+            int point2Y = 28;
 
             // 4 floating-point number variables
-            double a = 7.9;
-            double b = 2.25;
+            double pointA = 7.9;
+            double pointB = 2.25;
             double angleDegrees = 60;
             double angleRadians = angleDegrees * Math.PI / 180;
 
@@ -39,8 +40,8 @@ namespace PE_CastingMathAndDocumentation_Zhang
 
             // Calculations
             //  Addition & explicit casting
-            sumOfDoubles = a + b;
-            sumOfWholes = (int)a + (int)b;
+            sumOfDoubles = pointA + pointB;
+            sumOfWholes = (int)pointA + (int)pointB;
 
             //  Division & Modulus
             timePlayedDays = totalHours / 24;
@@ -51,7 +52,7 @@ namespace PE_CastingMathAndDocumentation_Zhang
             cosine = Math.Cos(angleRadians);
 
             //  Distance
-            distanceBetweenPoints = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+            distanceBetweenPoints = Math.Sqrt(Math.Pow(point2X - point1X, 2) + Math.Pow(point2Y - point1Y, 2));
 
             //  Rounding
             nearestWhole = (int)Math.Round(distanceBetweenPoints); // TODO: Do I need to cast this?
@@ -61,11 +62,11 @@ namespace PE_CastingMathAndDocumentation_Zhang
             // Formatting and Printing
             //  Addition & explicit casting
             Console.WriteLine("--- ADDITION ---");
-            Console.WriteLine("Number A: " + a);
-            Console.WriteLine("Number B: " + b);
-            Console.WriteLine(a + " + " + b + " = " + sumOfDoubles);
+            Console.WriteLine("Number A: " + pointA);
+            Console.WriteLine("Number B: " + pointB);
+            Console.WriteLine(pointA + " + " + pointB + " = " + sumOfDoubles);
             Console.WriteLine("Now I'll add just the whole number parts.");
-            Console.WriteLine((int)a + " + " + (int)b + " = " + sumOfWholes);
+            Console.WriteLine((int)pointA + " + " + (int)pointB + " = " + sumOfWholes);
             Console.WriteLine();
 
             //  Division & Modulus
@@ -83,8 +84,8 @@ namespace PE_CastingMathAndDocumentation_Zhang
 
             //  Distance
             Console.WriteLine("--- DISTANCE ---");
-            Console.WriteLine("Point One: (" + x1 + "," + y1 + ")");
-            Console.WriteLine("Point One: (" + x2 + "," + y2 + ")");
+            Console.WriteLine("Point One: (" + point1X + "," + point1Y + ")");
+            Console.WriteLine("Point One: (" + point2X + "," + point2Y + ")");
             Console.WriteLine("The distance between these points is " + distanceBetweenPoints);
             Console.WriteLine();
 
