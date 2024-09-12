@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\bin\Debug\net8.0\9_12Demo.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\bin\Debug\net8.0\9_12Demo.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\bin\Debug\net8.0\9_12Demo.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\bin\Debug\net8.0\9_12Demo.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\bin\Debug\net8.0\9_12Demo.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\9_12Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\9_12Demo.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\9_12Demo.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\9_12Demo.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\9_12Demo.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\9_12Demo.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\refint\9_12Demo.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\9_12Demo.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\9_12Demo.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Demos\9_12Demo\obj\Debug\net8.0\ref\9_12Demo.dll

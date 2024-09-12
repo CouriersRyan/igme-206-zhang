@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_CastingMathAndDocumentation_Zhang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9564f721bb08129c4a976a9ce755794b709a123d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd68845ac97e706a204acdff19f8399b4ceeb86a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_CastingMathAndDocumentation_Zhang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_CastingMathAndDocumentation_Zhang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
