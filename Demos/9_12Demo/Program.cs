@@ -4,15 +4,18 @@
     {
         static void Main(string[] args)
         {
-            double value = 123.4567; // Already declared as a double
-            String s = String.Format("Price is {0}.", value);
-            Console.Write("Via Format: ");
-            Console.WriteLine(s);
-            Console.WriteLine();
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.Clear();
+            Console.WriteLine("Testing a new color scheme");
+            Console.WriteLine("Press Enter to continue.");
+            Console.ReadLine();
 
-            Console.Write("Via WL: ");
-            Console.WriteLine("Price is {0}.", value);
-            Console.WriteLine();
+            // Reset back to reasonable colors
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.Clear();
+            Console.WriteLine("That's better!");
 
         }
     }

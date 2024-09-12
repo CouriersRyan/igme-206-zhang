@@ -12,7 +12,7 @@ namespace PE_CastingMathAndDocumentation_Zhang
 
     internal class Program
     {
-        // Does calculations with several given 
+        // Does calculations from user inputted values
         static void Main(string[] args)
         {
             string playerName;
