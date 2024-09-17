@@ -10,14 +10,14 @@ namespace HW_StatsAnalysis_Zhang
         // Takes in a series of data inputs for two players and evaluates and prints a comparison of the two players.
         static void Main(string[] args)
         {
-            // Activity 1
+            // Activity 1 - Declare your variables
             // Player 1 Variables
             string namePlayer1;
             int gamesWonPlayer1;
             int gamesLostPlayer1;
             int gamesTotalPlayer1;
             double hoursPlayedPlayer1;
-            double avgHoursPerGamePlayer1;
+            int avgMinutesPerGamePlayer1;
             double winRatePlayer1;
 
             // Player 2 Variables
@@ -26,16 +26,20 @@ namespace HW_StatsAnalysis_Zhang
             int gamesLostPlayer2;
             int gamesTotalPlayer2;
             double hoursPlayedPlayer2;
-            double avgHoursPerGamePlayer2;
+            int avgMinutesPerGamePlayer2;
             double winRatePlayer2;
 
-            // Formatted strings for Activity 2
-            string namePrompt = "Enter the name for Player {0}: ";
-            string gamesPlayedPrompt = "Enter the number of games {0} {1}: ";
-            string hoursPlayedPrompt = "Enter the total time played by {0} in hours: ";
+            // Error Flags
+            bool statValidPlayer1 = true;
+            bool statValidPlayer2 = true;
 
-            // Formatted strings for Activity 3
-            string summaryTable = "Summary Table:" +
+            // Format strings for Activity 2
+            const string namePrompt = "Enter the name for Player {0}: ";
+            const string gamesPlayedPrompt = "Enter the number of games {0} {1}: ";
+            const string hoursPlayedPrompt = "Enter the total time played by {0} in hours: ";
+
+            // Format strings for Activity 3
+            const string summaryTable = "Summary Table:" +
                 "\n\t\t\t{0}\t\t{1}" +
                 "\n\tGames Played\t{2}\t\t{3}" +
                 "\n\tGames Won\t{4}\t\t{5}" +
@@ -43,13 +47,10 @@ namespace HW_StatsAnalysis_Zhang
                 "\n\tTotal Time (h)\t{8:F1}\t\t{9:F1}" +
                 "\n\tWin Rate\t{10:P3}\t\t{11:P3}" +
                 "\n\tAvg Time (m)\t{12}\t\t{13}";
-            string betterPlayerStatement = "{0} has a better win rate!";
+            const string betterPlayerStatement = "{0} has a better win rate!";
 
-            // Error Flags
-            bool statValidPlayer1 = true;
-            bool statValidPlayer2 = true;
 
-            // Activity 2
+            // Activity 2 - Collect Base Statistics and Validate Input
             Console.WriteLine("========= STATS ANALYZER =========\n");
 
             // Get Player 1 inputs
@@ -100,6 +101,7 @@ namespace HW_StatsAnalysis_Zhang
                 Console.ForegroundColor = ConsoleColor.White;
                 statValidPlayer1 = false;
             }
+
             Console.WriteLine();
 
             // Stop the program if there are any errors
@@ -171,17 +173,17 @@ namespace HW_StatsAnalysis_Zhang
                 return;
             }
 
-            // Activity 3
+            // Activity 3 - Analyze & Display the Results
             // Calculations
-            avgHoursPerGamePlayer1 = 60 * hoursPlayedPlayer1 / gamesTotalPlayer1; // Player 2 avg play time (m)
+            avgMinutesPerGamePlayer1 = (int)Math.Round(60 * hoursPlayedPlayer1 / gamesTotalPlayer1); // Player 2 avg play time (m)
             winRatePlayer1 = (double)gamesWonPlayer1 / gamesTotalPlayer1; // Player 1 winrate
-            avgHoursPerGamePlayer2 = 60 * hoursPlayedPlayer2 / gamesTotalPlayer2; // Player 2 avg play time (m)
+            avgMinutesPerGamePlayer2 = (int)Math.Round(60 * hoursPlayedPlayer2 / gamesTotalPlayer2); // Player 2 avg play time (m)
             winRatePlayer2 = (double)gamesWonPlayer2 / gamesTotalPlayer2; // Player 2 winrate
 
             // Print Summary
             Console.WriteLine(summaryTable, namePlayer1, namePlayer2, gamesTotalPlayer1, gamesTotalPlayer2,
                 gamesWonPlayer1, gamesWonPlayer2, gamesLostPlayer1, gamesLostPlayer2, hoursPlayedPlayer1,
-                hoursPlayedPlayer2, winRatePlayer1, winRatePlayer2, avgHoursPerGamePlayer1, avgHoursPerGamePlayer2);
+                hoursPlayedPlayer2, winRatePlayer1, winRatePlayer2, avgMinutesPerGamePlayer1, avgMinutesPerGamePlayer2);
             Console.WriteLine();
 
             // Compare & Print who has a better winrate.
@@ -200,7 +202,6 @@ namespace HW_StatsAnalysis_Zhang
             {
                 Console.WriteLine("It's a draw!");
             }
-            // TODO: evaluate everything against rubric cases
         }
     }
 }
