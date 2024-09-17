@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_IfsAndSwitches_Zhang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cca5df96712a852872d5c9f85cb8bc5c68b4d65d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+596453ee54f66bf43009c05d240a91571e18ee63")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_IfsAndSwitches_Zhang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_IfsAndSwitches_Zhang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

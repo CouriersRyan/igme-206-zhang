@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\bin\Debug\net8.0\PE_IfsAndSwitches_Zhang.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\bin\Debug\net8.0\PE_IfsAndSwitches_Zhang.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\bin\Debug\net8.0\PE_IfsAndSwitches_Zhang.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\bin\Debug\net8.0\PE_IfsAndSwitches_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\bin\Debug\net8.0\PE_IfsAndSwitches_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\PE_IfsAndSwitches_Zhang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\PE_IfsAndSwitches_Zhang.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\PE_IfsAndSwitches_Zhang.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\PE_IfsAndSwitches_Zhang.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\PE_IfsAndSwitches_Zhang.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\PE_IfsAndSwitches_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\refint\PE_IfsAndSwitches_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\PE_IfsAndSwitches_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\PE_IfsAndSwitches_Zhang.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_IfsAndSwitches_Zhang\obj\Debug\net8.0\ref\PE_IfsAndSwitches_Zhang.dll
