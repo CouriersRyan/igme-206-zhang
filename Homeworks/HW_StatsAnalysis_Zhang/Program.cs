@@ -105,14 +105,14 @@ namespace HW_StatsAnalysis_Zhang
             Console.WriteLine();
 
             // Stop the program if there are any errors
-            if(!statValidPlayer1)
+            if (!statValidPlayer1)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Cannot continue with analysis. Goodbye.");
                 Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
-            
+
 
             // Get Player 2 input
             Console.Write(namePrompt, 2);
@@ -175,10 +175,14 @@ namespace HW_StatsAnalysis_Zhang
 
             // Activity 3 - Analyze & Display the Results
             // Calculations
-            avgMinutesPerGamePlayer1 = (int)Math.Round(60 * hoursPlayedPlayer1 / gamesTotalPlayer1); // Player 2 avg play time (m)
-            winRatePlayer1 = (double)gamesWonPlayer1 / gamesTotalPlayer1; // Player 1 winrate
-            avgMinutesPerGamePlayer2 = (int)Math.Round(60 * hoursPlayedPlayer2 / gamesTotalPlayer2); // Player 2 avg play time (m)
-            winRatePlayer2 = (double)gamesWonPlayer2 / gamesTotalPlayer2; // Player 2 winrate
+            // Player 1 avg play time (m)
+            avgMinutesPerGamePlayer1 = (int)Math.Round(60 * hoursPlayedPlayer1 / gamesTotalPlayer1);
+            // Player 1 winrate
+            winRatePlayer1 = (double)gamesWonPlayer1 / gamesTotalPlayer1;
+            // Player 2 avg play time (m)
+            avgMinutesPerGamePlayer2 = (int)Math.Round(60 * hoursPlayedPlayer2 / gamesTotalPlayer2);
+            // Player 2 winrate
+            winRatePlayer2 = (double)gamesWonPlayer2 / gamesTotalPlayer2;
 
             // Print Summary
             Console.WriteLine(summaryTable, namePlayer1, namePlayer2, gamesTotalPlayer1, gamesTotalPlayer2,
