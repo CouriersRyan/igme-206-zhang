@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PE_1dArrays_Zhang/1.0.0": {
+        "runtime": {
+          "PE_1dArrays_Zhang.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PE_1dArrays_Zhang/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
