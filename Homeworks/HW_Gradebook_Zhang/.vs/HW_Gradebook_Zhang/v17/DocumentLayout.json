@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Gradebook_Zhang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85122ECE-0B52-4D46-B9B3-46359648493B}|HW_Gradebook_Zhang.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\homeworks\\hw_gradebook_zhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85122ECE-0B52-4D46-B9B3-46359648493B}|HW_Gradebook_Zhang.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Gradebook_Zhang\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Gradebook_Zhang\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAgwL4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T21:07:59.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
