@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\bin\Debug\net8.0\HW_Gradebook_Zhang.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\bin\Debug\net8.0\HW_Gradebook_Zhang.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\bin\Debug\net8.0\HW_Gradebook_Zhang.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\bin\Debug\net8.0\HW_Gradebook_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\bin\Debug\net8.0\HW_Gradebook_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\HW_Gradebook_Zhang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\HW_Gradebook_Zhang.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\HW_Gradebook_Zhang.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\HW_Gradebook_Zhang.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\HW_Gradebook_Zhang.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\HW_Gradebook_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\refint\HW_Gradebook_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\HW_Gradebook_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\HW_Gradebook_Zhang.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Homeworks\HW_Gradebook_Zhang\obj\Debug\net8.0\ref\HW_Gradebook_Zhang.dll

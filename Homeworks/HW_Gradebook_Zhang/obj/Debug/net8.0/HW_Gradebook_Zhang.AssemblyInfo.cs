@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW_Gradebook_Zhang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80a518bd46c0f48c009d62513166f7cb71d7f16a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12037af4df1fb4906ec4dc63260ca142da03dd54")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW_Gradebook_Zhang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW_Gradebook_Zhang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
