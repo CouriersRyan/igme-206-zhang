@@ -5,11 +5,11 @@
  */
 namespace HW_Gradebook_Zhang
 {
-    /// <summary>
-    /// Gradebook program. Prompts the user for a number of grades to enter and prints out statistics for the grade.
-    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Gradebook. Prompts the user for a number of grades to enter and prints out statistics for the grades.
+        /// </summary>
         static void Main(string[] args)
         {
             // Variable Declaration
@@ -46,6 +46,7 @@ namespace HW_Gradebook_Zhang
             assignmentGrades = new double[totalAssignments];
             assignmentNames = new string[totalAssignments];
 
+            // Iterate over each grade index and prompt for a name and grade.
             for (int i = 0; i < totalAssignments; i++)
             {
                 // Prompt for assignment name.
@@ -88,13 +89,14 @@ namespace HW_Gradebook_Zhang
                 Console.WriteLine("    {0}. {1}: {2}", i + 1, assignmentNames[i], assignmentGrades[i]);
             }
             Console.WriteLine("-----------------------------------------------");
-            Console.WriteLine("Average {0:F2}", gradeAverage);
+            Console.WriteLine("Average: {0:F2}", gradeAverage);
             Console.WriteLine();
 
             // Activity 3: Grade Replacement
+            // Prompt for a grade index to replace.
             Console.Write("Which number grade do you want to replace? ");
             assignmentIndex = int.Parse(Console.ReadLine());
-
+            // Reprompt until a valid index is given.
             while(assignmentIndex < 1 || assignmentIndex > totalAssignments)
             {
                 Console.WriteLine("Index must be a number between 1 and {0}. Try again.", totalAssignments);
@@ -103,6 +105,7 @@ namespace HW_Gradebook_Zhang
             }
             Console.WriteLine();
 
+            // Prompt for new grade.
             Console.Write("What is the new grade for {0}? ", assignmentNames[assignmentIndex - 1]);
             assignmentGrades[assignmentIndex - 1] = double.Parse(Console.ReadLine());
             // Reprompt if grade is not between 0 and 100
@@ -126,13 +129,13 @@ namespace HW_Gradebook_Zhang
             gradeAverage = gradeSum / assignmentGrades.Length;
 
             // Print Listing of assigment names and scores
-            Console.WriteLine("Grade Report:");
+            Console.WriteLine("Final Grade Report:");
             for (int i = 0; i < totalAssignments; i++)
             {
                 Console.WriteLine("    {0}. {1}: {2}", i + 1, assignmentNames[i], assignmentGrades[i]);
             }
             Console.WriteLine("-----------------------------------------------");
-            Console.WriteLine("Average {0:F2}", gradeAverage);
+            Console.WriteLine("Average: {0:F2}", gradeAverage);
             Console.WriteLine();
 
             // Activity 5: Analyze and Report!
@@ -172,10 +175,10 @@ namespace HW_Gradebook_Zhang
                 {
                     for (int j = i + 1; j < assignmentGrades.Length; j++)
                     {
+                        // Exit loop if non-unique value found
                         if (assignmentGrades[i] == assignmentGrades[j])
                         {
                             isAllGradesUnique = false;
-                            // Exit loop if non-unique value found
                             break;
                         }
                     }
@@ -188,7 +191,7 @@ namespace HW_Gradebook_Zhang
                 }
             }
 
-            // TODO: Print
+            // Prints outs results of calculations.
             Console.WriteLine("{0} grades are above average.", gradesAboveAvg);
             Console.WriteLine("\nThe highest grade is {0}." +
                 "\nThe lowest grade is {1}.", highestGrade, lowestGrade);
