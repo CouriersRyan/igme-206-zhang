@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\bin\Debug\net8.0\PE_ExceptionHandlingAndTryParse.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\bin\Debug\net8.0\PE_ExceptionHandlingAndTryParse.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\bin\Debug\net8.0\PE_ExceptionHandlingAndTryParse.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\bin\Debug\net8.0\PE_ExceptionHandlingAndTryParse.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\bin\Debug\net8.0\PE_ExceptionHandlingAndTryParse.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\PE_ExceptionHandlingAndTryParse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\PE_ExceptionHandlingAndTryParse.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\PE_ExceptionHandlingAndTryParse.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\PE_ExceptionHandlingAndTryParse.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\PE_ExceptionHandlingAndTryParse.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\PE_ExceptionHandlingAndTryParse.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\refint\PE_ExceptionHandlingAndTryParse.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\PE_ExceptionHandlingAndTryParse.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\PE_ExceptionHandlingAndTryParse.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_ExceptionHandlingAndTryParse\obj\Debug\net8.0\ref\PE_ExceptionHandlingAndTryParse.dll

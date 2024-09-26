@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE_ExceptionHandlingAndTryParse", "PE_ExceptionHandlingAndTryParse.csproj", "{FE4AFF8C-ECF2-4D8D-AD23-31F7663E3BCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE4AFF8C-ECF2-4D8D-AD23-31F7663E3BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4AFF8C-ECF2-4D8D-AD23-31F7663E3BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4AFF8C-ECF2-4D8D-AD23-31F7663E3BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4AFF8C-ECF2-4D8D-AD23-31F7663E3BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4671F30E-3152-4379-988A-6F810DD3A177}
+	EndGlobalSection
+EndGlobal
