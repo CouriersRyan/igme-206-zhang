@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\bin\Debug\net8.0\PE_GuessingGame_Zhang.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\bin\Debug\net8.0\PE_GuessingGame_Zhang.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\bin\Debug\net8.0\PE_GuessingGame_Zhang.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\bin\Debug\net8.0\PE_GuessingGame_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\bin\Debug\net8.0\PE_GuessingGame_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\PE_GuessingGame_Zhang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\PE_GuessingGame_Zhang.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\PE_GuessingGame_Zhang.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\PE_GuessingGame_Zhang.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\PE_GuessingGame_Zhang.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\PE_GuessingGame_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\refint\PE_GuessingGame_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\PE_GuessingGame_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\PE_GuessingGame_Zhang.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_GuessingGame_Zhang\obj\Debug\net8.0\ref\PE_GuessingGame_Zhang.dll
