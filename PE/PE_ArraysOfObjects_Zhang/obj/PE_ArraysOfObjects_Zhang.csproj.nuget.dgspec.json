@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Profiles\\rlz2910\\source\\repos\\PE_ArraysOfObjects_Zhang\\PE_ArraysOfObjects_Zhang.csproj": {}
+    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_ArraysOfObjects_Zhang\\PE_ArraysOfObjects_Zhang.csproj": {}
   },
   "projects": {
-    "D:\\Profiles\\rlz2910\\source\\repos\\PE_ArraysOfObjects_Zhang\\PE_ArraysOfObjects_Zhang.csproj": {
+    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_ArraysOfObjects_Zhang\\PE_ArraysOfObjects_Zhang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Profiles\\rlz2910\\source\\repos\\PE_ArraysOfObjects_Zhang\\PE_ArraysOfObjects_Zhang.csproj",
+        "projectUniqueName": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_ArraysOfObjects_Zhang\\PE_ArraysOfObjects_Zhang.csproj",
         "projectName": "PE_ArraysOfObjects_Zhang",
-        "projectPath": "D:\\Profiles\\rlz2910\\source\\repos\\PE_ArraysOfObjects_Zhang\\PE_ArraysOfObjects_Zhang.csproj",
+        "projectPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_ArraysOfObjects_Zhang\\PE_ArraysOfObjects_Zhang.csproj",
         "packagesPath": "D:\\Profiles\\rlz2910\\.nuget\\packages\\",
-        "outputPath": "D:\\Profiles\\rlz2910\\source\\repos\\PE_ArraysOfObjects_Zhang\\obj\\",
+        "outputPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_ArraysOfObjects_Zhang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",

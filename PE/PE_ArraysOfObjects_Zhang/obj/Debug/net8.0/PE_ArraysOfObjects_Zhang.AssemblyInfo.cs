@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_ArraysOfObjects_Zhang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5c96b71e97fd32990816e645f8c28aaa09ff268")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_ArraysOfObjects_Zhang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_ArraysOfObjects_Zhang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
