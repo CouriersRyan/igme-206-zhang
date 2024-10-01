@@ -1,8 +1,8 @@
 ﻿/***
- * YOUR NAME
+ * Ryan Zhang
  * 
  * HW 4 - The Arena
- * Write-up: https://docs.google.com/document/d/15Rl0oXwNXdGze8p5HcrZ8n4y78oiubW5pbkJei2YTPI/edit?usp=sharing
+ * Write-up: https://docs.google.com/document/d/1eOYYtup_hlHzLSw62bFBEFJY8Qm_7SFdtTi3FH8IIuw/edit?usp=sharing
  *
  * Primary upgrades:
  *  1. 
