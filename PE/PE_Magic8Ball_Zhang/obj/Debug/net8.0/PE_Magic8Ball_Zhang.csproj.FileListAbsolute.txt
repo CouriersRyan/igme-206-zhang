@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\bin\Debug\net8.0\PE_Magic8Ball_Zhang.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\bin\Debug\net8.0\PE_Magic8Ball_Zhang.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\bin\Debug\net8.0\PE_Magic8Ball_Zhang.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\bin\Debug\net8.0\PE_Magic8Ball_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\bin\Debug\net8.0\PE_Magic8Ball_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\PE_Magic8Ball_Zhang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\PE_Magic8Ball_Zhang.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\PE_Magic8Ball_Zhang.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\PE_Magic8Ball_Zhang.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\PE_Magic8Ball_Zhang.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\PE_Magic8Ball_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\refint\PE_Magic8Ball_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\PE_Magic8Ball_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\PE_Magic8Ball_Zhang.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Magic8Ball_Zhang\obj\Debug\net8.0\ref\PE_Magic8Ball_Zhang.dll
