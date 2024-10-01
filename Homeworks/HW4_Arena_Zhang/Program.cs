@@ -15,7 +15,7 @@
  * Known Bugs:
  * 
  * Other notes:
- * 
+ * I'm wondering how to handle movement and build the arena.
  */
 namespace HW4_Arena
 {

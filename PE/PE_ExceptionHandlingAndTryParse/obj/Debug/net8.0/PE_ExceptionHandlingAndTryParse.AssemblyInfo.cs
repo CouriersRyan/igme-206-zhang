@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_ExceptionHandlingAndTryParse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9eac949232069ba053815c392bfd46171448efd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0293920da2c7b07da18d53f3e9321fe0a204f26")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_ExceptionHandlingAndTryParse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_ExceptionHandlingAndTryParse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
