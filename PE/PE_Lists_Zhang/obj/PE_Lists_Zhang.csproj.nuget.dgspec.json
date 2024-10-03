@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Properties_Zhang\\PE_Properties_Zhang.csproj": {}
+    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Lists_Zhang\\PE_Lists_Zhang.csproj": {}
   },
   "projects": {
-    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Properties_Zhang\\PE_Properties_Zhang.csproj": {
+    "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Lists_Zhang\\PE_Lists_Zhang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Properties_Zhang\\PE_Properties_Zhang.csproj",
-        "projectName": "PE_Properties_Zhang",
-        "projectPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Properties_Zhang\\PE_Properties_Zhang.csproj",
+        "projectUniqueName": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Lists_Zhang\\PE_Lists_Zhang.csproj",
+        "projectName": "PE_Lists_Zhang",
+        "projectPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Lists_Zhang\\PE_Lists_Zhang.csproj",
         "packagesPath": "D:\\Profiles\\rlz2910\\.nuget\\packages\\",
-        "outputPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Properties_Zhang\\obj\\",
+        "outputPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Lists_Zhang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",
