@@ -245,11 +245,12 @@ namespace HW4_Arena
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             int enemyHealth = EnemyMaxHealth;
             string combatStatusFormat = "Your current health is {0}, the goat's health is {1}.";
-            string combatPrompt = "What would you like to do? Attack/Run >";
+            string combatPrompt = "What would you like to do? Attack/Reckless/Run >";
             bool isInFight = true;
             string input;
             int playerDamage;
             int enemyDamage;
+            bool exhausted = false;
 
 
             Console.WriteLine("An angry goat attacks you!");
@@ -261,32 +262,60 @@ namespace HW4_Arena
                 Console.WriteLine(combatStatusFormat, stats[Health], enemyHealth);
                 input = SmartConsole.GetPromptedInput(combatPrompt).ToLower();
 
-                // Attack
-                if (input.Equals("attack"))
+                // Prevent command from resolving for a turn if you are exhausted.
+                if (!exhausted)
                 {
-                    // Calculate damage.
-                    playerDamage = stats[Strength] * DamageMult;
-                    if (playerDamage < 0)
+                    // Attack
+                    if (input.Equals("attack"))
                     {
-                        playerDamage = 0;
+                        // Calculate damage.
+                        playerDamage = stats[Strength] * DamageMult;
+                        if (playerDamage < 0)
+                        {
+                            playerDamage = 0;
+                        }
+
+                        // Print damage dealt.
+                        Console.WriteLine("You swing at the goat doing {0} damage.", playerDamage);
+
+                        // Apply damage.
+                        enemyHealth -= playerDamage;
                     }
+                    // Reckless - attack for double damage but skip the next turn.
+                    else if (input.Equals("reckless"))
+                    {
+                        // Calculate damage.
+                        playerDamage = stats[Strength] * DamageMult * 2;
+                        if (playerDamage < 0)
+                        {
+                            playerDamage = 0;
+                        }
 
-                    // Print damage dealt.
-                    Console.WriteLine("You swing at the goat doing {0} damage.", playerDamage);
+                        // Print damage dealt.
+                        Console.WriteLine("You swing recklessly for double damage at the goat doing {0} damage!", playerDamage);
 
-                    // Apply damage.
-                    enemyHealth -= playerDamage;
+                        // Apply damage.
+                        enemyHealth -= playerDamage;
+
+                        // Become exhausted for a turn
+                        exhausted = true;
+                    }
+                    // Run
+                    else if (input.Equals("run"))
+                    {
+                        Console.WriteLine("You retreat to the starting area of the arena to heal up.");
+                        return Run;
+                    }
+                    // Anything else
+                    else
+                    {
+                        Console.WriteLine("Command not recognized! Oh no! LOOK OUT!!");
+                    }
                 }
-                // Run
-                else if (input.Equals("run"))
-                {
-                    Console.WriteLine("You retreat to the starting area of the arena to heal up.");
-                    return Run;
-                }
-                // Anything else
                 else
                 {
-                    Console.WriteLine("Command not recognized! Oh no! LOOK OUT!!");
+                    exhausted = false;
+                    Console.WriteLine("You have overexerted yourself! You need a turn to recover.");
                 }
 
                 // Enemy attacks.
@@ -340,6 +369,10 @@ namespace HW4_Arena
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
 
+        /// <summary>
+        /// Levels up the player. Recursively checks if player happens to level up multiples times at once.
+        /// </summary>
+        /// <param name="stats"></param>
         private static void LevelUp(int[] stats)
         {
             stats[Level]++;
