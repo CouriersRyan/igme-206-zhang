@@ -300,7 +300,6 @@ namespace HW4_Arena
             // an enemy and the out param will work just fine. :)
             numEnemies = 0;
 
-            // TODO: Implement the BuildArena method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             // Get arena dimensions.
             int arenaWidth = SmartConsole.GetValidIntegerInput("How wide should the arena be?" +
@@ -362,6 +361,59 @@ namespace HW4_Arena
         {
             // TODO: Implement the PrintArena method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            // Loop through arena
+            for (int i = 0; i < arena.GetLength(0); i++)
+            {
+                for(int j = 0; j < arena.GetLength(1); j++)
+                {
+                    // If the player is at the tile, prints the player instead
+                    if(i == playerLoc[0] && j == playerLoc[1])
+                    {
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write(Player);
+                    }
+                    // Otherwise print the tile
+                    else
+                    {
+                        // Check for specific tile and print it with specific color.
+                        switch (arena[i,j])
+                        {
+                            case Enemy: 
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.Write(Enemy); 
+                                break;
+
+                            case Wall:
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.Write(Wall);
+                                break;
+
+                            case PlayerStart: 
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.Write(PlayerStart);
+                                break;
+
+                            case Exit:
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.Write(Exit);
+                                break;
+
+                            // Empty and anything that isn't valid
+                            case Empty:
+                            default:
+                                Console.Write(Empty);
+                                break;
+                        }
+                    }
+                }
+
+                // Move to next row.
+                Console.WriteLine();
+            }
+
+            // Reset the color.
+            Console.ForegroundColor = ConsoleColor.White;
+
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
     }
