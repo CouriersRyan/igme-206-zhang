@@ -220,9 +220,82 @@ namespace HW4_Arena
         /// <returns>The result of the fight using an int code. See the constants at the top of Program.cs</returns>
         private static int Fight(int[] stats)
         {
-            // TODO: Implement the Fight method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            return 0; // replace this. it's just so the starter code compiles.
+            int enemyHealth = EnemyMaxHealth;
+            string combatStatusFormat = "Your current health is {0}, the goat's health is {1}.";
+            string combatPrompt = "What would you like to do? Attack/Run >";
+            bool isInFight = true;
+            string input;
+            int playerDamage;
+            int enemyDamage;
+
+
+            Console.WriteLine("An angry goat attacks you!");
+            Console.WriteLine();
+
+            do
+            {
+                // Print current status of the fight and ask for an input
+                Console.WriteLine(combatStatusFormat, stats[Health], enemyHealth);
+                input = SmartConsole.GetPromptedInput(combatPrompt);
+
+                // Attack
+                if (input.Equals("attack"))
+                {
+                    // Calculate damage.
+                    playerDamage = stats[Strength] * DamageMult;
+
+                    // Print damage dealt.
+                    Console.WriteLine("You swing at the goat doing {0} damage.", playerDamage);
+
+                    // Apply damage.
+                    enemyHealth -= playerDamage;
+                }
+                // Run
+                else if (input.Equals("run"))
+                {
+                    Console.WriteLine("You retreat to the starting area of the arena to heal up.");
+                    return Run;
+                }
+                // Anything else
+                else
+                {
+                    Console.WriteLine("Command not recognized! Oh no! LOOK OUT!!");
+                }
+
+                // Enemy attacks.
+                enemyDamage = EnemyAttack - stats[Dexterity];
+                Console.WriteLine("The goat charges at you for {0} damage!", enemyDamage);
+                stats[Health] -= enemyDamage;
+
+                Console.WriteLine();
+
+                // If any character's health drop to or below 0, exit the fight.
+                if (stats[Health] <= 0 || enemyHealth <= 0)
+                {
+                    isInFight = false;
+                }
+            } while (isInFight);
+
+            // Check if the fight is a win, loss, or draw.
+            // Win if player has health but enemy doesn't.
+            if (stats[Health] > 0 && enemyHealth <= 0)
+            {
+                Console.WriteLine("You have defeated the beast! Congratulations!");
+                return Win;
+            }
+
+            // Lose if enemy has health but player doesn't.
+            if (stats[Health] <= 0 && enemyHealth > 0)
+            {
+                Console.WriteLine("Your wounds are too much, the goat wins this time.");
+                return Lose;
+            }
+
+            // All other cases, draw.
+            Console.WriteLine("You defeat the goat with you last breath.");
+            return Draw;
+
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
 
@@ -248,13 +321,13 @@ namespace HW4_Arena
             string playerName = SmartConsole.GetPromptedInput("Welcome, please enter your name: >");
 
             // Get stats
-            Console.WriteLine("Hello {0}, I'll need a bit more information from you before we can start.");
+            Console.WriteLine("Hello {0}, I'll need a bit more information from you before we can start.", playerName);
             Console.WriteLine("You have {0} points to build your character and three attributes to allocate them to.",
                 remainingPoints);
             Console.WriteLine();
 
             // Ask for strength
-            statsArray[Strength] = SmartConsole.GetValidIntegerInput("How many points would you like to" +
+            statsArray[Strength] = SmartConsole.GetValidIntegerInput("How many points would you like to " +
                 "allocate to Strength? >", 1, remainingPoints - remainingStats);
             remainingPoints -= statsArray[Strength];
             remainingStats--; // Constitution
@@ -262,7 +335,7 @@ namespace HW4_Arena
             Console.WriteLine();
 
             // Ask for dexterity
-            statsArray[Dexterity] = SmartConsole.GetValidIntegerInput("How many points would you like to" +
+            statsArray[Dexterity] = SmartConsole.GetValidIntegerInput("How many points would you like to " +
                 "allocate to Dexterity? >", 1, remainingPoints - remainingStats);
             remainingPoints -= statsArray[Dexterity];
             remainingStats--; // None
@@ -270,7 +343,7 @@ namespace HW4_Arena
             Console.WriteLine();
 
             // Ask for constitution
-            statsArray[Constitution] = SmartConsole.GetValidIntegerInput("How many points would you like to" +
+            statsArray[Constitution] = SmartConsole.GetValidIntegerInput("How many points would you like to " +
                 "allocate to Constitution? >", 1, remainingPoints);
             remainingPoints -= statsArray[Constitution];
             Console.WriteLine("You have {0} points unused.", remainingPoints);
@@ -359,7 +432,6 @@ namespace HW4_Arena
         /// <param name="playerLoc">The player's location in a 1d array with element [row, col]</param>
         private static void PrintArena(char[,] arena, int[] playerLoc)
         {
-            // TODO: Implement the PrintArena method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             // Loop through arena
             for (int i = 0; i < arena.GetLength(0); i++)
