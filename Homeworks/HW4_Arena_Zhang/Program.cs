@@ -5,12 +5,12 @@
  * Write-up: https://docs.google.com/document/d/1eOYYtup_hlHzLSw62bFBEFJY8Qm_7SFdtTi3FH8IIuw/edit?usp=sharing
  *
  * Primary upgrades:
- *  1. 
- *  2.
+ *  1. Random enemy placement
+ *  2. Enemy Customization
  *  
  * Optional extra upgrades:
- *  3.
- *  4.
+ *  3. Additional Combat Options
+ *  4. Experience Points
  *  
  * Known Bugs:
  * 
@@ -45,11 +45,18 @@ namespace HW4_Arena
         private const char Left = 'a';
         private const char Right = 'd';
 
+        // Constants for stats choices
+        private const char StrChoice = 's';
+        private const char DexChoice = 'd';
+        private const char ConChoice = 'c';
+
         // Player stat indices
         private const int Strength = 0;
         private const int Dexterity = 1;
         private const int Constitution = 2;
         private const int Health = 3;
+        private const int Experience = 4;
+        private const int Level = 5;
 
         // Possible fight outcomes
         private const int Win = 0;
@@ -66,6 +73,10 @@ namespace HW4_Arena
         const int DamageMult = 5;
         const int EnemyAttack = 5;
         const int EnemyMaxHealth = 50;
+        const int EnemyExperienceDrop = 1;
+
+        // Points of where experience will allow a level up.
+        readonly static int[] levelUpThresholds = new int[] {1, 2, 4, 8, 16, 32, 64, 128, 256, int.MaxValue};
 
         /// <summary>
         /// DO NOT CHANGE ANY CODE IN MAIN!!!
@@ -85,7 +96,7 @@ namespace HW4_Arena
             // Stats - to make it easier to pass these around between methods, all 4 stats are
             // in a single array with elements in the order [Strength, Dexterity, Constitution, Health]
             // Constants are defined above to help with this.
-            int[] stats = new int[4];
+            int[] stats = new int[6];
 
             // Define the variable to refer to the final arena
             char[,] arena;
@@ -95,9 +106,11 @@ namespace HW4_Arena
 
             // Is the game still running?
             bool stillPlaying = true;
-
+            
             // How many enemies are left?
             int numEnemies;
+
+            int expToNextLevel;
 
             // ** GET PLAYER STATS & BUILD ARENA **
             // Welcome & get stats 
@@ -114,12 +127,17 @@ namespace HW4_Arena
                 // Clear the console and then print the arena
                 Console.Clear();
                 PrintArena(arena, playerLoc);
+                expToNextLevel = (stats[Level] <= levelUpThresholds.Length ?
+                                        levelUpThresholds[stats[Level] - 1] :
+                                        0);
                 Console.WriteLine(
                     $"\n{name}, your stats are: " +
                     $"Strength {stats[Strength]}, " +
                     $"Dexterity {stats[Dexterity]}, " +
                     $"Constitution {stats[Constitution]}, " +
-                    $"Health {stats[Health]}");
+                    $"Health {stats[Health]}, " +
+                    $"Experience {stats[Experience]}/{expToNextLevel}, " +
+                    $"Level {stats[Level]}");
 
                 // ** DETECT MOVEMENT **
 
@@ -237,13 +255,17 @@ namespace HW4_Arena
             {
                 // Print current status of the fight and ask for an input
                 Console.WriteLine(combatStatusFormat, stats[Health], enemyHealth);
-                input = SmartConsole.GetPromptedInput(combatPrompt);
+                input = SmartConsole.GetPromptedInput(combatPrompt).ToLower();
 
                 // Attack
                 if (input.Equals("attack"))
                 {
                     // Calculate damage.
                     playerDamage = stats[Strength] * DamageMult;
+                    if (playerDamage < 0)
+                    {
+                        playerDamage = 0;
+                    }
 
                     // Print damage dealt.
                     Console.WriteLine("You swing at the goat doing {0} damage.", playerDamage);
@@ -265,6 +287,10 @@ namespace HW4_Arena
 
                 // Enemy attacks.
                 enemyDamage = EnemyAttack - stats[Dexterity];
+                if(enemyDamage < 0)
+                {
+                    enemyDamage = 0;
+                }
                 Console.WriteLine("The goat charges at you for {0} damage!", enemyDamage);
                 stats[Health] -= enemyDamage;
 
@@ -282,6 +308,17 @@ namespace HW4_Arena
             if (stats[Health] > 0 && enemyHealth <= 0)
             {
                 Console.WriteLine("You have defeated the beast! Congratulations!");
+
+                // Gain Experience on a win
+                stats[Experience]++;
+                
+                // Check for level up
+                if(stats[Level - 1] < levelUpThresholds.Length && // Check player is not max level
+                    stats[Experience] >= levelUpThresholds[stats[Level] - 1]) // Check player has required exp
+                {
+                    LevelUp(stats);
+                }
+
                 return Win;
             }
 
@@ -297,6 +334,42 @@ namespace HW4_Arena
             return Draw;
 
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        }
+
+        private static void LevelUp(int[] stats)
+        {
+            stats[Level]++;
+
+            char levelUpChoice;
+
+            Console.WriteLine("Leveled up! You have grown stronger!");
+            levelUpChoice =  SmartConsole.GetPromptedChoice("Choose an attribute to improve. " +
+                "'s' - Strength / 'd' - Dexterity / 'c' - Constitution >", new char[] { StrChoice, DexChoice, ConChoice });
+
+            switch (levelUpChoice)
+            {
+                case StrChoice:
+                    stats[Strength]++;
+                    Console.WriteLine("\nStrength improved by 1! Strength is now {0}", stats[Strength]);
+                    break;
+
+                case DexChoice:
+                    stats[Dexterity]++;
+                    Console.WriteLine("\nDexterity improved by 1! Dexterity is now {0}", stats[Dexterity]);
+                    break;
+
+                case ConChoice:
+                    stats[Constitution]++;
+                    Console.WriteLine("\nConstitution improved by 1! Constitution is now {0}", stats[Constitution]);
+                    break;
+            }
+
+            // Recursive, check for possible level up again
+            if (stats[Level - 1] < levelUpThresholds.Length && // Check player is not max level
+                    stats[Experience] >= levelUpThresholds[stats[Level] - 1]) // Check player has required exp
+            {
+                LevelUp(stats);
+            }
         }
 
         /// <summary>
@@ -351,6 +424,10 @@ namespace HW4_Arena
 
             // Calculate health
             statsArray[Health] = statsArray[Constitution] * HealthMult;
+
+            // Set default level and exp
+            statsArray[Level] = 1;
+            statsArray[Experience] = 0;
 
             return playerName;
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
