@@ -302,7 +302,50 @@ namespace HW4_Arena
 
             // TODO: Implement the BuildArena method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            char[,] arena = null; // replace this. it's just so the starter code compiles.
+            // Get arena dimensions.
+            int arenaWidth = SmartConsole.GetValidIntegerInput("How wide should the arena be?" +
+                "(Enter a value from 10 to 50) >", 10, 50);
+            int arenaHeight = SmartConsole.GetValidIntegerInput("How tall should the arena be?" +
+                "(Enter a value from 10 to 50) >", 10, 50);
+
+            char[,] arena = new char[arenaHeight, arenaWidth];
+
+            // Loop through the arena and populate it with elements
+            for(int i = 0; i < arenaHeight; i++)
+            {
+
+                for(int j = 0; j < arenaWidth; j++)
+                {
+                    // Populate with walls along edge.
+                    if (i == 0 || i == arenaHeight - 1 ||
+                        j == 0 || j == arenaWidth-1)
+                    {
+                        arena[i, j] = Wall;
+                    }
+                    // Place player start location in top left corner.
+                    else if (i == 1 && j == 1)
+                    {
+                        arena[1, 1] = PlayerStart;
+                    }
+                    // Place exit in bottom right corner.
+                    else if (i == arenaHeight - 2 && j == arenaWidth - 2)
+                    {
+                        arena[arenaHeight - 2, arenaWidth - 2] = Exit;
+                    }
+                    // Populate with enemies with even spacing, prevent overlap with walls.
+                    else if(i % EnemySpacing == 0 && j % EnemySpacing == 0)
+                    {
+                        arena[i, j] = Enemy;
+                        numEnemies++;
+                    }
+                    // Insert with empty space anywhere else.
+                    else
+                    {
+                        arena[i, j] = Empty;
+                    }
+                    
+                }
+            }
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
             // All done
