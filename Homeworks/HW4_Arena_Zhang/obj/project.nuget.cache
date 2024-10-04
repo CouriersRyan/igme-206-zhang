@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UEQrG9qxc9M=",
+  "dgSpecHash": "dQrJRbovnMM=",
   "success": true,
-  "projectFilePath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW4_Arena_Zhang\\HW4_Arena.csproj",
-  "expectedPackageFiles": [
-    "D:\\Profiles\\rlz2910\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
-    "D:\\Profiles\\rlz2910\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
-    "D:\\Profiles\\rlz2910\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512",
-    "D:\\Profiles\\rlz2910\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.32\\microsoft.netcore.app.host.win-x64.6.0.32.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW4_Arena_Zhang\\HW4_Arena.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -234,9 +234,52 @@ namespace HW4_Arena
         /// <returns>The player's name</returns>
         private static string GetPlayerInfo(int[] statsArray)
         {
-            // TODO: Implement the GetPlayerInfo method
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            return "???"; // replace this. it's just so the starter code compiles.
+            int remainingPoints = MaxPoints;
+
+            // Number of stats that need points after the next one (Strength)
+            // Used to ensure that the player will always be able to allocate at least one point in all stats.
+            int remainingStats = 2; // Dexterity and Constitution
+
+            // Prompt repeated to give the player how many points they have left to distribute.
+            string pointsRemainingFormat = "You have {0} points remaining.";
+
+            // Get player name
+            string playerName = SmartConsole.GetPromptedInput("Welcome, please enter your name: >");
+
+            // Get stats
+            Console.WriteLine("Hello {0}, I'll need a bit more information from you before we can start.");
+            Console.WriteLine("You have {0} points to build your character and three attributes to allocate them to.",
+                remainingPoints);
+            Console.WriteLine();
+
+            // Ask for strength
+            statsArray[Strength] = SmartConsole.GetValidIntegerInput("How many points would you like to" +
+                "allocate to Strength? >", 1, remainingPoints - remainingStats);
+            remainingPoints -= statsArray[Strength];
+            remainingStats--; // Constitution
+            Console.WriteLine(pointsRemainingFormat, remainingPoints);
+            Console.WriteLine();
+
+            // Ask for dexterity
+            statsArray[Dexterity] = SmartConsole.GetValidIntegerInput("How many points would you like to" +
+                "allocate to Dexterity? >", 1, remainingPoints - remainingStats);
+            remainingPoints -= statsArray[Dexterity];
+            remainingStats--; // None
+            Console.WriteLine(pointsRemainingFormat, remainingPoints);
+            Console.WriteLine();
+
+            // Ask for constitution
+            statsArray[Constitution] = SmartConsole.GetValidIntegerInput("How many points would you like to" +
+                "allocate to Constitution? >", 1, remainingPoints);
+            remainingPoints -= statsArray[Constitution];
+            Console.WriteLine("You have {0} points unused.", remainingPoints);
+            Console.WriteLine();
+
+            // Calculate health
+            statsArray[Health] = statsArray[Constitution] * HealthMult;
+
+            return playerName;
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
 
