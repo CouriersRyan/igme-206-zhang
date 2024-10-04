@@ -74,9 +74,13 @@ namespace HW4_Arena
         const int EnemyAttack = 5;
         const int EnemyMaxHealth = 50;
         const int EnemyExperienceDrop = 1;
+        const int MaxRandomEnemies = 10; // inclusive
 
         // Points of where experience will allow a level up.
         readonly static int[] levelUpThresholds = new int[] {1, 2, 4, 8, 16, 32, 64, 128, 256, int.MaxValue};
+
+        // Random
+        private static Random rng = new Random();
 
         /// <summary>
         /// DO NOT CHANGE ANY CODE IN MAIN!!!
@@ -446,11 +450,30 @@ namespace HW4_Arena
         /// <returns>A reference to the final 2d arena</returns>
         private static char[,] BuildArena(out int numEnemies)
         {
+            bool randomEnemyPlacement = false;
+            string input;
+
             // Start by setting numEnemies to 0. Increment this whenever you create
             // an enemy and the out param will work just fine. :)
             numEnemies = 0;
 
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            // Ask if player wants random enemy placement
+            input = SmartConsole.GetPromptedInput("Would you like to use random enemy placements? (Yes/No)").ToLower();
+            if (input.Equals("yes"))
+            {
+                Console.WriteLine("Using random enemy placement!");
+                randomEnemyPlacement = true;
+            }
+            else if (input.Equals("no"))
+            {
+                Console.WriteLine("Using evenly spaced enemy placement!");
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Defaulting to evenly space enemy placement!");
+            }
+
             // Get arena dimensions.
             int arenaWidth = SmartConsole.GetValidIntegerInput("How wide should the arena be?" +
                 "(Enter a value from 10 to 50) >", 10, 50);
@@ -482,7 +505,8 @@ namespace HW4_Arena
                         arena[arenaHeight - 2, arenaWidth - 2] = Exit;
                     }
                     // Populate with enemies with even spacing, prevent overlap with walls.
-                    else if(i % EnemySpacing == 0 && j % EnemySpacing == 0)
+                    // Only do it if using even enemy placement.
+                    else if(i % EnemySpacing == 0 && j % EnemySpacing == 0 && !randomEnemyPlacement)
                     {
                         arena[i, j] = Enemy;
                         numEnemies++;
@@ -492,7 +516,30 @@ namespace HW4_Arena
                     {
                         arena[i, j] = Empty;
                     }
-                    
+                }
+            }
+
+            // Populate with random enemies.
+            if (randomEnemyPlacement)
+            {
+                numEnemies = rng.Next(1, MaxRandomEnemies + 1);
+                int count = 0;
+                int iterations = 0;
+                while(count < numEnemies && iterations < 5000)
+                {
+                    // Choose random coordinates
+                    // Exclude edge, where walls always are.
+                    int x = rng.Next(1, arenaHeight - 2);
+                    int y = rng.Next(1, arenaWidth - 2);
+
+                    if (arena[x, y] == Empty)
+                    {
+                        count++;
+                        arena[x, y] = Enemy;
+                    }
+
+                    // This is to prevent an infinite loop
+                    iterations++;
                 }
             }
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

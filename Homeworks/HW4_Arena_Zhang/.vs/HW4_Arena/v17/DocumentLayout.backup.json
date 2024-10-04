@@ -18,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -34,8 +30,7 @@
               "RelativeToolTip": "SmartConsole.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAYwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T21:12:30.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T21:12:30.132Z"
             },
             {
               "$type": "Document",
@@ -45,10 +40,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW4_Arena_Zhang\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAO8AAAAAAAAAAAAAAAIBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUCAAAAAAAAAAAAABgCAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T21:12:27.015Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

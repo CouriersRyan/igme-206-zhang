@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW4_Arena")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d387774654a69403504b187f564f8153d38a2d5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a5d7413b015b592a08b6ae2f100c05bf211a898")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW4_Arena")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW4_Arena")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
