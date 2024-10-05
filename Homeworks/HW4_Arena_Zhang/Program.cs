@@ -10,12 +10,18 @@
  *  
  * Optional extra upgrades:
  *  3. Additional Combat Options
+ *      a. I added a 'reckless' option that does double damage
+ *      b. but the player can't attack the turn afterwards
  *  4. Experience Points
+ *      a. I implemented experience and level stats to the array
+ *      b. the player can get exp from winning a fight
+ *      c. if they hit the exp threshold for the next level, they level up.
  *  
  * Known Bugs:
+ * None
  * 
  * Other notes:
- * I'm wondering how to handle movement and build the arena.
+ * I'm wondering how to handle movement and building the arena.
  */
 namespace HW4_Arena
 {
@@ -72,9 +78,14 @@ namespace HW4_Arena
         const int HealthMult = 5;
         const int DamageMult = 5;
         const int EnemyAttack = 5;
-        const int EnemyMaxHealth = 50;
         const int EnemyExperienceDrop = 1;
         const int MaxRandomEnemies = 10; // inclusive
+
+        // Enemy Customization
+        readonly static int[] EnemyMaxHealth = new int[] { 10, 20, 40, 50, 100, 150 };
+        readonly static string[] EnemyNames = new string[] {"goat", "slimy goat", "batty goat", "demon goat",
+            "evil goat", "oozy goat",
+            "slime", "bat", "ooze", "demon"};
 
         // Points of where experience will allow a level up.
         readonly static int[] levelUpThresholds = new int[] {1, 2, 4, 8, 16, 32, 64, 128, 256, int.MaxValue};
@@ -243,8 +254,9 @@ namespace HW4_Arena
         private static int Fight(int[] stats)
         {
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            int enemyHealth = EnemyMaxHealth;
-            string combatStatusFormat = "Your current health is {0}, the goat's health is {1}.";
+            int enemyHealth = EnemyMaxHealth[rng.Next(EnemyMaxHealth.Length)];
+            string enemyName = EnemyNames[rng.Next(EnemyNames.Length)];
+            string combatStatusFormat = "Your current health is {0}, the {2}'s health is {1}.";
             string combatPrompt = "What would you like to do? Attack/Reckless/Run >";
             bool isInFight = true;
             string input;
@@ -253,13 +265,13 @@ namespace HW4_Arena
             bool exhausted = false;
 
 
-            Console.WriteLine("An angry goat attacks you!");
+            Console.WriteLine("An angry {0} attacks you!", enemyName);
             Console.WriteLine();
 
             do
             {
                 // Print current status of the fight and ask for an input
-                Console.WriteLine(combatStatusFormat, stats[Health], enemyHealth);
+                Console.WriteLine(combatStatusFormat, stats[Health], enemyHealth, enemyName);
                 input = SmartConsole.GetPromptedInput(combatPrompt).ToLower();
 
                 // Prevent command from resolving for a turn if you are exhausted.
@@ -276,7 +288,7 @@ namespace HW4_Arena
                         }
 
                         // Print damage dealt.
-                        Console.WriteLine("You swing at the goat doing {0} damage.", playerDamage);
+                        Console.WriteLine("You swing at the {1} doing {0} damage.", playerDamage, enemyName);
 
                         // Apply damage.
                         enemyHealth -= playerDamage;
@@ -292,7 +304,8 @@ namespace HW4_Arena
                         }
 
                         // Print damage dealt.
-                        Console.WriteLine("You swing recklessly for double damage at the goat doing {0} damage!", playerDamage);
+                        Console.WriteLine("You swing recklessly for double damage at the {1} doing {0} damage!",
+                            playerDamage, enemyName);
 
                         // Apply damage.
                         enemyHealth -= playerDamage;
@@ -324,7 +337,7 @@ namespace HW4_Arena
                 {
                     enemyDamage = 0;
                 }
-                Console.WriteLine("The goat charges at you for {0} damage!", enemyDamage);
+                Console.WriteLine("The {1} charges at you for {0} damage!", enemyDamage, enemyName);
                 stats[Health] -= enemyDamage;
 
                 Console.WriteLine();
@@ -358,12 +371,12 @@ namespace HW4_Arena
             // Lose if enemy has health but player doesn't.
             if (stats[Health] <= 0 && enemyHealth > 0)
             {
-                Console.WriteLine("Your wounds are too much, the goat wins this time.");
+                Console.WriteLine("Your wounds are too much, the {0} wins this time.", enemyName);
                 return Lose;
             }
 
             // All other cases, draw.
-            Console.WriteLine("You defeat the goat with you last breath.");
+            Console.WriteLine("You defeat the {0} with you last breath.", enemyName);
             return Draw;
 
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
