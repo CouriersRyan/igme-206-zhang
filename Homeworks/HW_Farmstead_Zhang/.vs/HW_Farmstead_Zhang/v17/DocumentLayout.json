@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\homeworks\\hw_farmstead_zhang\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|solutionrelative:farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\homeworks\\hw_farmstead_zhang\\crop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|solutionrelative:crop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\homeworks\\hw_farmstead_zhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Crop.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Crop.cs",
+              "RelativeDocumentMoniker": "Crop.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Crop.cs",
+              "RelativeToolTip": "Crop.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwEgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:35:36.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Farm.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Farm.cs",
+              "RelativeDocumentMoniker": "Farm.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Farm.cs",
+              "RelativeToolTip": "Farm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:35:13.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T21:31:27.479Z",
               "EditorCaption": ""
