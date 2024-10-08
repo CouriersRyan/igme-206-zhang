@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\bin\Debug\net8.0\PE_FileIOWithClasses_Zhang.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\bin\Debug\net8.0\PE_FileIOWithClasses_Zhang.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\bin\Debug\net8.0\PE_FileIOWithClasses_Zhang.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\bin\Debug\net8.0\PE_FileIOWithClasses_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\bin\Debug\net8.0\PE_FileIOWithClasses_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\PE_FileIOWithClasses_Zhang.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\PE_FileIOWithClasses_Zhang.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\PE_FileIOWithClasses_Zhang.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\PE_FileIOWithClasses_Zhang.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\PE_FileIOWithClasses_Zhang.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\PE_FileIOWithClasses_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\refint\PE_FileIOWithClasses_Zhang.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\PE_FileIOWithClasses_Zhang.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\PE_FileIOWithClasses_Zhang.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_FileIOWithClasses_Zhang\obj\Debug\net8.0\ref\PE_FileIOWithClasses_Zhang.dll
