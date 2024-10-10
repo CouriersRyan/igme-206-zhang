@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_abstractionandpolymorphism\\pets\\frog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|solutionrelative:pets\\frog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_abstractionandpolymorphism\\pets\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|solutionrelative:pets\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_abstractionandpolymorphism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_abstractionandpolymorphism\\pets\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|solutionrelative:pets\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_abstractionandpolymorphism\\pets\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|solutionrelative:pets\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_abstractionandpolymorphism\\pets\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|solutionrelative:pets\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_abstractionandpolymorphism\\pets\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54D8B08-8EEA-470C-9F7E-5C6E4511EA30}|Abstraction_Polymorphism_Demo.csproj|solutionrelative:pets\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frog.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Frog.cs",
+              "RelativeDocumentMoniker": "Pets\\Frog.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Frog.cs",
+              "RelativeToolTip": "Pets\\Frog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:31:51.748Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Snake.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Snake.cs",
+              "RelativeDocumentMoniker": "Pets\\Snake.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Snake.cs",
+              "RelativeToolTip": "Pets\\Snake.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:32:43.062Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8BAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:02:25.136Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Duck.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Duck.cs",
+              "RelativeDocumentMoniker": "Pets\\Duck.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Duck.cs",
+              "RelativeToolTip": "Pets\\Duck.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:30:39.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Dog.cs",
+              "RelativeDocumentMoniker": "Pets\\Dog.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Dog.cs",
+              "RelativeToolTip": "Pets\\Dog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:30:39.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Cat.cs",
+              "RelativeDocumentMoniker": "Pets\\Cat.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Cat.cs",
+              "RelativeToolTip": "Pets\\Cat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:30:38.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Pet.cs",
+              "RelativeDocumentMoniker": "Pets\\Pet.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_AbstractionAndPolymorphism\\Pets\\Pet.cs",
+              "RelativeToolTip": "Pets\\Pet.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:30:37.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

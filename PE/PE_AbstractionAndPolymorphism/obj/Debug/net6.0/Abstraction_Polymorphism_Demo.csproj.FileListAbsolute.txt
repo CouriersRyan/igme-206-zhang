@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\bin\Debug\net6.0\Abstraction_Polymorphism_Demo.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\refint\Abstraction_Polymorphism_Demo.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\Abstraction_Polymorphism_Demo.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_AbstractionAndPolymorphism\obj\Debug\net6.0\ref\Abstraction_Polymorphism_Demo.dll
