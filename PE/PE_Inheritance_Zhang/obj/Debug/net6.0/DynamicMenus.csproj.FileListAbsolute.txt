@@ -1,0 +1,30 @@
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\bin\Debug\net6.0\DynamicMenus.exe
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\bin\Debug\net6.0\DynamicMenus.deps.json
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\bin\Debug\net6.0\DynamicMenus.runtimeconfig.json
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\bin\Debug\net6.0\DynamicMenus.dll
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\bin\Debug\net6.0\DynamicMenus.pdb
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\DynamicMenus.csproj.AssemblyReference.cache
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\DynamicMenus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\DynamicMenus.AssemblyInfoInputs.cache
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\DynamicMenus.AssemblyInfo.cs
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\DynamicMenus.csproj.CoreCompileInputs.cache
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\DynamicMenus.dll
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\refint\DynamicMenus.dll
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\DynamicMenus.pdb
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\DynamicMenus.genruntimeconfig.cache
+C:\Teaching\gdaps1_demos\29 - Inheritance and Overriding\DynamicMenus\obj\Debug\net6.0\ref\DynamicMenus.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\bin\Debug\net6.0\DynamicMenus.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\bin\Debug\net6.0\DynamicMenus.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\bin\Debug\net6.0\DynamicMenus.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\bin\Debug\net6.0\DynamicMenus.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\bin\Debug\net6.0\DynamicMenus.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\DynamicMenus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\DynamicMenus.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\DynamicMenus.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\DynamicMenus.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\DynamicMenus.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\DynamicMenus.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\refint\DynamicMenus.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\DynamicMenus.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\DynamicMenus.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\PE\PE_Inheritance_Zhang\obj\Debug\net6.0\ref\DynamicMenus.dll

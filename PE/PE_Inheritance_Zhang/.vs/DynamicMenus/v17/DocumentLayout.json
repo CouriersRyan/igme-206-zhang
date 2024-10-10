@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_inheritance_zhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_inheritance_zhang\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_inheritance_zhang\\gettimeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:gettimeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_inheritance_zhang\\luckycoloritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:luckycoloritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\pe\\pe_inheritance_zhang\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LuckyColorItem.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\LuckyColorItem.cs",
+              "RelativeDocumentMoniker": "LuckyColorItem.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\LuckyColorItem.cs",
+              "RelativeToolTip": "LuckyColorItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:40:57.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetTimeItem.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\GetTimeItem.cs",
+              "RelativeDocumentMoniker": "GetTimeItem.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\GetTimeItem.cs",
+              "RelativeToolTip": "GetTimeItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:28:28.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\MenuItem.cs",
+              "RelativeDocumentMoniker": "MenuItem.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\MenuItem.cs",
+              "RelativeToolTip": "MenuItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:28:28.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:28:27.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameItem.cs",
+              "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\GameItem.cs",
+              "RelativeDocumentMoniker": "GameItem.cs",
+              "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Inheritance_Zhang\\GameItem.cs",
+              "RelativeToolTip": "GameItem.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:28:26.601Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
