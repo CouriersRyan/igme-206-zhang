@@ -68,6 +68,7 @@ namespace HW_Farmstead_Zhang
             // Main Game Loop
             Console.WriteLine("*** {0}, ready for a fruitful season! ***", myFarm.Name);
 
+            // keep running while none of the quit conditions were hit.
             while (!hasQuit)
             {
                 // Main Menu

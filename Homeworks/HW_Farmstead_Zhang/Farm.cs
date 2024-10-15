@@ -181,7 +181,7 @@ namespace HW_Farmstead_Zhang
         /// </summary>
         public void Harvest()
         {
-            // Make sure plots aren't full first.
+            // Make sure at least one plot contains a crop.
             bool plotsEmpty = true;
             for (int i = 0; i < currentCrops.Length; i++)
             {
@@ -279,7 +279,5 @@ namespace HW_Farmstead_Zhang
             }
             return fieldList;
         }
-
-
     }
 }
