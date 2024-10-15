@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|solutionrelative:farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_farmstead_zhang\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|solutionrelative:smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_farmstead_zhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_farmstead_zhang\\crop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|solutionrelative:crop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_farmstead_zhang\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B63373B-5A18-4298-AEBF-C1B307987516}|HW_Farmstead_Zhang.csproj|solutionrelative:smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SmartConsole.cs",
               "DocumentMoniker": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\SmartConsole.cs",
               "RelativeDocumentMoniker": "SmartConsole.cs",
@@ -43,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Crop.cs",
               "DocumentMoniker": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Crop.cs",
               "RelativeDocumentMoniker": "Crop.cs",
               "ToolTip": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Crop.cs",
               "RelativeToolTip": "Crop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T21:35:36.315Z",
               "EditorCaption": ""
@@ -62,14 +62,14 @@
               "RelativeDocumentMoniker": "Farm.cs",
               "ToolTip": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Farm.cs",
               "RelativeToolTip": "Farm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAowMcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T21:35:13.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_Farmstead_Zhang\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

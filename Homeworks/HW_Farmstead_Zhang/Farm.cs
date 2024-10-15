@@ -138,7 +138,7 @@ namespace HW_Farmstead_Zhang
                 }
                 cropShop += "\n> ";
 
-                int cropToPlant = ConsoleHelper.GetValidIntegerInput(cropShop, 1,
+                int cropToPlant = SmartConsole.GetValidNumericInput(cropShop, 1,
                     availableCrops.Length) - 1;
 
                 // If we have enough money to plant that crop:
@@ -195,7 +195,7 @@ namespace HW_Farmstead_Zhang
             if (!plotsEmpty)
             {
                 // Prompt the player for which field to harvest
-                int cropToHarvest = ConsoleHelper.GetValidIntegerInput("Which field would you like to harvest?" +
+                int cropToHarvest = SmartConsole.GetValidNumericInput("Which field would you like to harvest?" +
                     "\n" + BuildFieldList() +
                     "\n> ",
                     1, currentCrops.Length) - 1;
