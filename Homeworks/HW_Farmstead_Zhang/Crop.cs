@@ -78,7 +78,7 @@ namespace HW_Farmstead_Zhang
         /// <summary>
         /// Decrements days left until the crop is ready to harvest (daysLeft is 0)
         /// </summary>
-        public void DaysPassed()
+        public void DayPassed()
         {
             if(daysLeft > 0)
             {

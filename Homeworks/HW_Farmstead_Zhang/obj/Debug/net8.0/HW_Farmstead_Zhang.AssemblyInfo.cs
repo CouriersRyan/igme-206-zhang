@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW_Farmstead_Zhang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cb94a0f9d78a79ec614f282be7337317d27419d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af4d105d058fbc7b284368a545816297e26ee221")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW_Farmstead_Zhang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW_Farmstead_Zhang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

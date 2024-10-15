@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "D:\\Profiles\\rlz2910\\.nuget\\packages\\": {}
+    "C:\\Users\\epica\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Magic8Ball_Zhang\\PE_Magic8Ball_Zhang.csproj",
+      "projectUniqueName": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\PE\\PE_Magic8Ball_Zhang\\PE_Magic8Ball_Zhang.csproj",
       "projectName": "PE_Magic8Ball_Zhang",
-      "projectPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Magic8Ball_Zhang\\PE_Magic8Ball_Zhang.csproj",
-      "packagesPath": "D:\\Profiles\\rlz2910\\.nuget\\packages\\",
-      "outputPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\PE\\PE_Magic8Ball_Zhang\\obj\\",
+      "projectPath": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\PE\\PE_Magic8Ball_Zhang\\PE_Magic8Ball_Zhang.csproj",
+      "packagesPath": "C:\\Users\\epica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\PE\\PE_Magic8Ball_Zhang\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",
+        "C:\\Users\\epica\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
