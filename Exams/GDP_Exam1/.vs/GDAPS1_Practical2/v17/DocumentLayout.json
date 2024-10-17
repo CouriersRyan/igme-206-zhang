@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\ee4688\\Downloads\\GDAPS1_Practical2_STARTER\\GDAPS1_Practical2_STARTER\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ee4688\\downloads\\gdaps1_practical2_starter\\gdaps1_practical2_starter\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ee4688\\downloads\\gdaps1_practical2_starter\\gdaps1_practical2_starter\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ee4688\\downloads\\gdaps1_practical2_starter\\gdaps1_practical2_starter\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Profiles\\ee4688\\Downloads\\GDAPS1_Practical2_STARTER\\GDAPS1_Practical2_STARTER\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "D:\\Profiles\\ee4688\\Downloads\\GDAPS1_Practical2_STARTER\\GDAPS1_Practical2_STARTER\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T16:26:15.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\Profiles\\ee4688\\Downloads\\GDAPS1_Practical2_STARTER\\GDAPS1_Practical2_STARTER\\Food.cs",
+              "RelativeDocumentMoniker": "Food.cs",
+              "ToolTip": "D:\\Profiles\\ee4688\\Downloads\\GDAPS1_Practical2_STARTER\\GDAPS1_Practical2_STARTER\\Food.cs",
+              "RelativeToolTip": "Food.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T16:26:12.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\Profiles\\ee4688\\Downloads\\GDAPS1_Practical2_STARTER\\GDAPS1_Practical2_STARTER\\Inventory.cs",
+              "RelativeDocumentMoniker": "Inventory.cs",
+              "ToolTip": "D:\\Profiles\\ee4688\\Downloads\\GDAPS1_Practical2_STARTER\\GDAPS1_Practical2_STARTER\\Inventory.cs",
+              "RelativeToolTip": "Inventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T16:14:45.029Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

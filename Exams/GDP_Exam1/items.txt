@@ -1,0 +1,7 @@
+﻿Food~Toadstool Tea~4~0.25
+Weapon~Heavy Boulder~750~2000
+Weapon~Pack Horse~250~1100
+Weapon~Venomkiss~100~4
+Food~Jest Juice~1~0.15
+Food~Mystic Muffins~3~0.50
+Weapon~Obsidian Axe~185~50.7

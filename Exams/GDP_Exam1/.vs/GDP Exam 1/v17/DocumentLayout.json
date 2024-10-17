@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|c:\\users\\drnigm\\downloads\\gdp_exam1 starter\\gdp_exam1\\gdp_exam1\\gdp_exam_1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:gdp_exam_1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|c:\\users\\drnigm\\downloads\\gdp_exam1 starter\\gdp_exam1\\gdp_exam1\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|c:\\users\\drnigm\\downloads\\gdp_exam1 starter\\gdp_exam1\\gdp_exam1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|c:\\users\\drnigm\\downloads\\gdp_exam1 starter\\gdp_exam1\\gdp_exam1\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|c:\\users\\drnigm\\downloads\\gdp_exam1 starter\\gdp_exam1\\gdp_exam1\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|c:\\users\\drnigm\\downloads\\gdp_exam1 starter\\gdp_exam1\\gdp_exam1\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GDP_Exam_1",
+              "DocumentMoniker": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\GDP_Exam_1.csproj",
+              "RelativeDocumentMoniker": "GDP_Exam_1.csproj",
+              "ToolTip": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\GDP_Exam_1.csproj",
+              "RelativeToolTip": "GDP_Exam_1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-11T17:19:56.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Weapon.cs",
+              "RelativeDocumentMoniker": "Weapon.cs",
+              "ToolTip": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Weapon.cs",
+              "RelativeToolTip": "Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:19:09.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:19:00.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Inventory.cs",
+              "RelativeDocumentMoniker": "Inventory.cs",
+              "ToolTip": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Inventory.cs",
+              "RelativeToolTip": "Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:18:46.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Food.cs",
+              "RelativeDocumentMoniker": "Food.cs",
+              "ToolTip": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Food.cs",
+              "RelativeToolTip": "Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:18:37.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\drnigm\\Downloads\\GDP_Exam1 Starter\\GDP_Exam1\\GDP_Exam1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:13:34.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

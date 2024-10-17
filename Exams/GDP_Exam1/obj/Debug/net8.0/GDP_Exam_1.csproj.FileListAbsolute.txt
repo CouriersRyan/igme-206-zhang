@@ -1,0 +1,15 @@
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.exe
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.deps.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.runtimeconfig.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.AssemblyInfoInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.AssemblyInfo.cs
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.csproj.CoreCompileInputs.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.sourcelink.json
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\refint\GDP_Exam_1.dll
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.pdb
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.genruntimeconfig.cache
+D:\Profiles\rlz2910\source\repos\igme-206-zhang\Exams\GDP_Exam1\obj\Debug\net8.0\ref\GDP_Exam_1.dll
