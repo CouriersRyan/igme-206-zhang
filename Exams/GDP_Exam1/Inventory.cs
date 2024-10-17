@@ -55,7 +55,6 @@ namespace GDP_Exam_1
             Console.WriteLine("Total damage from weapon(s): {0}", CalculateTotalDamage());
         }
 
-
         /// <summary>
         /// Return the total weight of all items in
         /// the inventory.

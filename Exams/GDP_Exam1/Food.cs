@@ -48,7 +48,7 @@ namespace GDP_Exam_1
             // Decrement servings and eat food so long as there are servings
             if(numServings > 0)
             {
-                Console.WriteLine("Mmmm I ate a serving of " + this.Name);
+                Console.WriteLine("Mmmm I ate a serving of " + this.Name + "!");
                 numServings--;
             }
             // Otherwise, tell the user there are no servings left.
@@ -66,6 +66,5 @@ namespace GDP_Exam_1
         {
             return String.Format("{0} and has {1} servings", base.ToString(), numServings);
         }
-
     }
 }

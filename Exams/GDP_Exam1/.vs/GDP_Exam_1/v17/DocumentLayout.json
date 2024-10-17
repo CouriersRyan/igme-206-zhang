@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\exams\\gdp_exam1\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\exams\\gdp_exam1\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\exams\\gdp_exam1\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\exams\\gdp_exam1\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\exams\\gdp_exam1\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\exams\\gdp_exam1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\exams\\gdp_exam1\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\rlz2910\\source\\repos\\igme-206-zhang\\exams\\gdp_exam1\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\Item.cs",
               "RelativeDocumentMoniker": "Item.cs",
@@ -47,39 +47,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Weapon.cs",
               "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\Weapon.cs",
               "RelativeDocumentMoniker": "Weapon.cs",
               "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\Weapon.cs",
               "RelativeToolTip": "Weapon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T16:08:13.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\Inventory.cs",
               "RelativeDocumentMoniker": "Inventory.cs",
               "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\Inventory.cs",
               "RelativeToolTip": "Inventory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAARAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAowF8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T16:07:40.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Food.cs",
               "DocumentMoniker": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\Food.cs",
               "RelativeDocumentMoniker": "Food.cs",
               "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\Food.cs",
               "RelativeToolTip": "Food.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAJAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwEMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T16:09:23.85Z",
               "EditorCaption": ""
@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Profiles\\rlz2910\\source\\repos\\igme-206-zhang\\Exams\\GDP_Exam1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAgwGAAAAAAAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAQwGQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T16:07:05.647Z",
               "EditorCaption": ""

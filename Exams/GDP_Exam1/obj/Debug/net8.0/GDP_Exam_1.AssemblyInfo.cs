@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GDP_Exam_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fd7499c85d2c154e927c08293547de3a647971e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9fb0de82749619891aa1963c24eb36369dac1e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GDP_Exam_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GDP_Exam_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,6 +22,8 @@ namespace GDP_Exam_1
 {
     /*
      * Ryan Zhang
+     * Exam 1
+     * https://docs.google.com/document/d/1dNfSVemEX5Su3ZqFLE4jnd8RIfHYZ-30/edit?usp=sharing&ouid=101523901432736212103&rtpof=true&sd=true
      * No known issues.
      */
     class Program
