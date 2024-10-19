@@ -28,9 +28,8 @@ namespace HW6_CritterFarm
             // Start with a console color of white vs. gray so everything matches.
             Console.ForegroundColor = ConsoleColor.White;
 
-            // TODO: Uncomment for which thing you want to test.
             TestCritters();
-            RunCritterFarm();
+            //RunCritterFarm();
         }
 
         /// <summary>
@@ -40,8 +39,54 @@ namespace HW6_CritterFarm
         static void TestCritters()
         {
             Console.WriteLine("**** Testing Critter sub-classes...");
+            Console.WriteLine();
 
-            // TODO: Add code here to test your critter classes!
+            List<Critter> critters = new List<Critter>();
+
+            // Create test Critter classes
+            Critter horse1 = new Horse("NEW HORSE");
+            Critter horse2 = new Horse("Joey", 10, 10);
+
+            Critter dog1 = new Dog("NEW DOG");
+            Critter dog2 = new Dog("Barker", 10, 10);
+
+            Critter cat1 = new Cat("NEW CAT");
+            Critter cat2 = new Cat("Rob", 10, 10);
+
+            // Add critters to list of critters
+            critters.Add(horse1);
+            critters.Add(horse2);
+            critters.Add(dog1);
+            critters.Add(dog2);
+            critters.Add(cat1);
+            critters.Add(cat2);
+
+            // Print status of every critter
+            foreach(Critter critter in critters)
+            {
+                Console.WriteLine(critter);
+            }
+            Console.WriteLine();
+
+            // Test actions for each critter
+            foreach(Critter critter in critters)
+            {
+                critter.Eat();
+                critter.Play();
+                critter.Talk();
+                if(critter is Cat)
+                {
+                    ((Cat)critter).CauseMischief();
+                }
+                Console.WriteLine();
+            }
+
+            // Print updated status for every critter.
+            foreach(Critter critter in critters)
+            {
+                Console.WriteLine(critter);
+            }
+            Console.WriteLine();
         }
 
         /// <summary>
