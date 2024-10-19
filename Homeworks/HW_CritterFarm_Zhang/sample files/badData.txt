@@ -1,0 +1,3 @@
+Cat|Shiro|4|4
+Dog|Pax|3|3.5
+Horse|Cosmo|2|2

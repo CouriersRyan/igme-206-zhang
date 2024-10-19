@@ -1,0 +1,15 @@
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\bin\Debug\net6.0\HW6_CritterFarm.exe
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\bin\Debug\net6.0\HW6_CritterFarm.deps.json
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\bin\Debug\net6.0\HW6_CritterFarm.runtimeconfig.json
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\bin\Debug\net6.0\HW6_CritterFarm.dll
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\bin\Debug\net6.0\HW6_CritterFarm.pdb
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\HW6_CritterFarm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\HW6_CritterFarm.AssemblyInfoInputs.cache
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\HW6_CritterFarm.AssemblyInfo.cs
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\HW6_CritterFarm.csproj.CoreCompileInputs.cache
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\HW6_CritterFarm.sourcelink.json
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\HW6_CritterFarm.dll
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\refint\HW6_CritterFarm.dll
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\HW6_CritterFarm.pdb
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\HW6_CritterFarm.genruntimeconfig.cache
+C:\Users\epica\OneDrive\Documents\Repos\igme-206-zhang\Homeworks\HW_CritterFarm_Zhang\obj\Debug\net6.0\ref\HW6_CritterFarm.dll
