@@ -16,10 +16,6 @@ namespace HW6_CritterFarm
     /// is an enum). You use them like constants by providing the type
     /// and the value - e.g. CritterMood myMood = CritterType.Cat 
     /// </summary>
-    // TODO: Add THREE new classes that inherit from the Critter base class
-    //       Make sure your critter child class names match the enum values below.
-    //       You may change these if you want. At least ONE class must have a method
-    //       that exists only in the child class. (Cat has CauseMischief in the demo)
     public enum CritterType
     {
         Cat,

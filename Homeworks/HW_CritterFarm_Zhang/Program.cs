@@ -28,8 +28,8 @@ namespace HW6_CritterFarm
             // Start with a console color of white vs. gray so everything matches.
             Console.ForegroundColor = ConsoleColor.White;
 
-            TestCritters();
-            //RunCritterFarm();
+            //TestCritters();
+            RunCritterFarm();
         }
 
         /// <summary>
@@ -102,7 +102,7 @@ namespace HW6_CritterFarm
             // TODO: Pass the correct filename to the critter manager constructor
             //       so that it will create a file "critter.txt" in the same folder as
             //       the source code
-            CritterManager manager = new CritterManager("../../../critter.txt");
+            CritterManager manager = new CritterManager("../../../critters.txt");
 
             // ------------------------------------------------------------------
             // Welcome the user
