@@ -5,9 +5,9 @@
  * Write-up: https://docs.google.com/document/d/1ZsWp7ulvxPUc5Zp6tg6tXJssbWw1BohEx_ip17m9y98/edit?usp=sharing
  *
  * Known Bugs:
- * 
+ *  None
  * Other notes:
- * 
+ *  None
  */
 namespace HW6_CritterFarm
 {
