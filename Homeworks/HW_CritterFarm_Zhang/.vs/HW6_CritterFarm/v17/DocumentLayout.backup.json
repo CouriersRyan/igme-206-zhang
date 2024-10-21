@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_CritterFarm_Zhang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_critterfarm_zhang\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_critterfarm_zhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_critterfarm_zhang\\crittermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:crittermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_critterfarm_zhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_critterfarm_zhang\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\epica\\onedrive\\documents\\repos\\igme-206-zhang\\homeworks\\hw_critterfarm_zhang\\critter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Critter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:12:52.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T19:12:52.444Z"
             },
             {
               "$type": "Document",
@@ -49,27 +48,27 @@
               "RelativeDocumentMoniker": "CritterManager.cs",
               "ToolTip": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_CritterFarm_Zhang\\CritterManager.cs",
               "RelativeToolTip": "CritterManager.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAQwLQAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAQwAABAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T19:12:57.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_CritterFarm_Zhang\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_CritterFarm_Zhang\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T19:12:54.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SmartConsole.cs",
               "DocumentMoniker": "C:\\Users\\epica\\OneDrive\\Documents\\Repos\\igme-206-zhang\\Homeworks\\HW_CritterFarm_Zhang\\SmartConsole.cs",
               "RelativeDocumentMoniker": "SmartConsole.cs",

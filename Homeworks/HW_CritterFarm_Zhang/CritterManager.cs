@@ -227,6 +227,13 @@ namespace HW6_CritterFarm
                     }
                 }
             }
+            // If file doesn't exist then ask the player to set up a new farm.
+            catch (FileNotFoundException e)
+            {
+                SmartConsole.PrintError("Critter save file doesn't exist" +
+                    "\n\nYou'll need to set up a new critter farm.");
+                SetupCritters();
+            }
             // Catch any problems with reading the file.
             catch (Exception e)
             {
