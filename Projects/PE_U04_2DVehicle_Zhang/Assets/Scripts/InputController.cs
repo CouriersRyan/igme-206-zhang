@@ -8,6 +8,7 @@ public class InputController : MonoBehaviour
 {
     private PlayerInput playerInput;
     private InputAction moveAction;
+    private InputAction switchCollisionAction;
     private Vector2 dir;
     public Vector2 Direction
     {
@@ -23,6 +24,9 @@ public class InputController : MonoBehaviour
         moveAction.started += OnMove;
         moveAction.performed += OnMove;
         moveAction.canceled += OnMove;
+
+        switchCollisionAction = playerInput.actions.FindAction("SwitchCollision");
+        switchCollisionAction.performed += OnSwitchCollisions;
     }
 
     /// <summary>
@@ -32,5 +36,10 @@ public class InputController : MonoBehaviour
     void OnMove(InputAction.CallbackContext context)
     {
         dir = context.ReadValue<Vector2>();
+    }
+
+    void OnSwitchCollisions(InputAction.CallbackContext context)
+    {
+        CollisionManager.Instance.ToggleCollision();
     }
 }
