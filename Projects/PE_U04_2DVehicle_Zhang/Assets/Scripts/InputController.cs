@@ -38,6 +38,10 @@ public class InputController : MonoBehaviour
         dir = context.ReadValue<Vector2>();
     }
 
+    /// <summary>
+    /// Toggles the collision mode.
+    /// </summary>
+    /// <param name="context"></param>
     void OnSwitchCollisions(InputAction.CallbackContext context)
     {
         CollisionManager.Instance.ToggleCollision();

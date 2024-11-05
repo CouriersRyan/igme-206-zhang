@@ -36,11 +36,14 @@ public class CollisionManager : MonoBehaviour
     /// <returns></returns>
     public bool CheckCollisions(SpriteInfo info)
     {
+        
         bool didCollide = false;
-        info.SpriteColor = Color.white;
+
+        // Reset collisions then calculate collisions.
+        info.ResetCollide();
         foreach (SpriteInfo collision in collidables)
         {
-            collision.SpriteColor = Color.white;
+            collision.ResetCollide();
             didCollide = didCollide || TryCollision(info, collision);
         }
 
@@ -55,6 +58,7 @@ public class CollisionManager : MonoBehaviour
     /// <returns></returns>
     private bool TryCollision(SpriteInfo info1, SpriteInfo info2)
     {
+        // Check collisions
         bool collision = false;
         if (isAABB)
         {
@@ -65,9 +69,10 @@ public class CollisionManager : MonoBehaviour
             collision = CircleCollision(info1, info2);
         }
 
+        // If any collision occured, run each colliding object's onCollide script.
         if (collision) {
-            info1.SpriteColor = Color.red;
-            info2.SpriteColor = Color.red;
+            info1.OnCollide(info2);
+            info2.OnCollide(info1);
         }
 
         return collision;
@@ -81,7 +86,13 @@ public class CollisionManager : MonoBehaviour
     /// <returns></returns>
     private bool AABBCollision(SpriteInfo info1, SpriteInfo info2)
     {
-        return false;
+        // Check for all four bounds.
+        return (
+            info2.MinimumBounds.x < info1.MaximumBounds.x &&
+            info2.MaximumBounds.x > info1.MinimumBounds.x &&
+            info2.MaximumBounds.y > info1.MinimumBounds.y &&
+            info2.MinimumBounds.y < info1.MaximumBounds.y
+        );
     }
 
     /// <summary>

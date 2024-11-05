@@ -1,13 +1,13 @@
-﻿# Game Project: PE U04 - 2D Vehicle
+# Game Project: PE U05 - Collision Detection
 ### Creator: Ryan Zhang
-### Version: 1.0
+### Version: 1.1
 ### Date: 10/31/2024
 
 
 ## New features
-- Added Movement controller that takes in a direction Vector to decide movement and rotation.
-- Added Input controller to take in player input events and convert them into values for other scripts.
-- Added screen wrapping based on camera bounds.
+- Added collision detection feature for AABB and Circle Collisions
+- Added button input toggle for changing Collision Modes
+- Added a SpriteInfo and CollisionManager to handle collisions
 ﻿
 ## Fixes
 - None
@@ -21,4 +21,4 @@
 - No known bugs
 
 ## Other Notes
-
+Source of Rock: https://opengameart.org/content/rocks
