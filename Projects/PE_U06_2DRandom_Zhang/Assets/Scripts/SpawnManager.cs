@@ -29,14 +29,14 @@ public class SpawnManager : Singleton<SpawnManager>
     public void Spawn()
     {
         // pick a random number of creatures to spawn.
-        int numToSpawn = Random.Range(1, 12);
+        int numToSpawn = Random.Range(12, 36);
         for (int i = 0; i < numToSpawn; i++)
         {
             // spawn a creature
             GameObject creature = SpawnCreature();
             creatures.Add(creature);
             // set position with normalized distrubtion
-            creature.transform.position = new Vector2(Gaussian(0, 5), Gaussian(0, 2));
+            creature.transform.position = new Vector2(Gaussian(0, 2), Gaussian(0, 2));
         }
     }
 
