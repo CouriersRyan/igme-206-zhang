@@ -5,6 +5,7 @@ using UnityEngine;
 /// </summary>
 public class PhysicsObject : MonoBehaviour
 {
+    // fields
     [Header("Body")]
     private Vector3 position;
     private Vector3 direction;
@@ -12,11 +13,8 @@ public class PhysicsObject : MonoBehaviour
     private Vector3 acceleration;
     [SerializeField] private float mass = 1;
     [SerializeField] private float maxSpeed = 500f;
-
-    public Vector3 Position
-    {
-        get => position;
-    }
+    [SerializeField] private float maxForce = 50f;
+    [SerializeField] private float radius = 1f;
 
     [Header("Friction")]
     [SerializeField] private bool isFriction;
@@ -28,6 +26,33 @@ public class PhysicsObject : MonoBehaviour
 
     private Camera cam;
 
+    // properties
+    public Vector3 Position
+    {
+        get => position;
+    }
+
+    public Vector3 Velocity
+    {
+        get => velocity;
+    }
+
+    public float MaxSpeed
+    {
+        get => maxSpeed;
+    }
+
+    public float MaxForce
+    {
+        get => maxForce;
+    }
+
+    public float Radius
+    {
+        get => radius;
+    }
+
+    // methods
     void Start()
     {
         cam = Camera.main;
@@ -57,6 +82,15 @@ public class PhysicsObject : MonoBehaviour
 
         // Reset Forces
         acceleration = Vector3.zero;
+    }
+
+    /// <summary>
+    /// Teleport the physics body to set position.
+    /// </summary>
+    /// <param name="pos"></param>
+    public void Teleport(Vector2 pos)
+    {
+        position = pos;
     }
 
     /// <summary>
