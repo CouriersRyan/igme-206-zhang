@@ -16,6 +16,8 @@ public class PhysicsObject : MonoBehaviour
     [SerializeField] private float maxForce = 50f;
     [SerializeField] private float radius = 1f;
 
+    [SerializeField] private bool doBounce = true;
+
     [Header("Friction")]
     [SerializeField] private bool isFriction;
     [SerializeField] private float frictionCoefficient;
@@ -76,7 +78,7 @@ public class PhysicsObject : MonoBehaviour
 
         // Update position
         position += velocity * Time.deltaTime;
-        Bounce();
+        if(doBounce) Bounce();
 
         transform.position = position;
 
