@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Agent that wanders a
+/// Agent that wanders around
 /// </summary>
 public class Wanderer : Agent
 {
@@ -21,7 +21,7 @@ public class Wanderer : Agent
     /// </summary>
     protected override void Init()
     {
-        currWanderAngle = Random.Range(-Mathf.PI, Mathf.PI);
+        transform.rotation = Quaternion.Euler(0, 0,Random.Range(-180, 180));
     }
 
     /// <summary>
@@ -29,10 +29,11 @@ public class Wanderer : Agent
     /// </summary>
     protected override void CalcSteeringForce()
     {
-        ultimaForce += Wander(ref currWanderAngle, Mathf.PI / 36, Mathf.PI, wanderTime, wanderRadius);
-        //ultimaForce += StayInBounds(wanderTime, padding);
+        ultimaForce += Wander(ref currWanderAngle, Mathf.PI/36, Mathf.PI/4, wanderTime, wanderRadius);
+        ultimaForce += StayInBounds(wanderTime, padding) * boundsScalar;
 
-        pb.ApplyForce(ultimaForce * Time.deltaTime);
+        Vector3.ClampMagnitude(ultimaForce, MaxForce);
+        pb.ApplyForce(ultimaForce);
     }
 
     /// <summary>
@@ -41,6 +42,10 @@ public class Wanderer : Agent
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.black;
-        Gizmos.DrawLine(transform.position, transform.position + ultimaForce);
+        Gizmos.DrawLine(transform.position, GetFuturePosition(wanderTime));
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, wanderPoint);
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(GetFuturePosition(wanderTime), wanderRadius);
     }
 }

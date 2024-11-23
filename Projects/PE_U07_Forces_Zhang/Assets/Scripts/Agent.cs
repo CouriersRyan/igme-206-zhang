@@ -13,8 +13,10 @@ public abstract class Agent : MonoBehaviour
     // fields
     [SerializeField] public PhysicsObject pb;
     [SerializeField] protected Agent target;
+    [SerializeField] public float boundsScalar = 2f;
 
     protected Vector3 ultimaForce;
+    protected Vector3 wanderPoint;
 
     // properties
     public float MaxSpeed
@@ -111,7 +113,7 @@ public abstract class Agent : MonoBehaviour
     /// <returns></returns>
     public Vector3 GetFuturePosition(float time)
     {
-        return transform.position + pb.Velocity * time;
+        return pb.Position + pb.Velocity * (time);
     }
 
     /// <summary>
@@ -125,20 +127,20 @@ public abstract class Agent : MonoBehaviour
     /// <returns></returns>
     public Vector3 Wander(ref float currentWanderAngle, float wanderRange, float maxWanderAngle, float time, float wanderRadius)
     {
+        // get future position
         Vector3 lookAheadPoint = GetFuturePosition(time);
 
+        // get the wander angle based on previous wander angle and a maximum
         currentWanderAngle += Random.Range(-wanderRange, wanderRange) * Time.deltaTime;
+        currentWanderAngle = Mathf.Clamp(currentWanderAngle, -maxWanderAngle, maxWanderAngle);
 
-        /*if(currentWanderAngle > maxWanderAngle)
-        {
-            currentWanderAngle = maxWanderAngle;
-        }
-        else if(currentWanderAngle < -maxWanderAngle)
-        {
-            currentWanderAngle = -maxWanderAngle;
-        }*/
+        // rotate wander angle by heading direction
+        float newWanderAngle = Vector3.Angle(Vector3.up, pb.Direction) + currentWanderAngle;
 
-        Vector3 wanderPoint = new Vector3(lookAheadPoint.x + Mathf.Cos(currentWanderAngle) * wanderRadius, lookAheadPoint.x + Mathf.Sin(currentWanderAngle) * wanderRadius, lookAheadPoint.z);
+        // calculate the point to seek based on wander angle
+        Vector3 wanderPoint = new Vector3(lookAheadPoint.x + (Mathf.Cos(newWanderAngle) * wanderRadius), lookAheadPoint.y + (Mathf.Sin(newWanderAngle) * wanderRadius), lookAheadPoint.z);
+        this.wanderPoint = wanderPoint;
+        
         return Seek(wanderPoint);
     }
 

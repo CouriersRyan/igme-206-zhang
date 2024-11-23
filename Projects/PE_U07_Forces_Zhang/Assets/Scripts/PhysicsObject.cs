@@ -54,6 +54,11 @@ public class PhysicsObject : MonoBehaviour
         get => radius;
     }
 
+    public Vector3 Direction
+    {
+        get => direction;
+    }
+
     // methods
     void Start()
     {

@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3127303281840247854, guid: 3f367289887a77c4e8a95ce1088be364, type: 3}
       propertyPath: mass
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3127303281840247854, guid: 3f367289887a77c4e8a95ce1088be364, type: 3}
       propertyPath: doBounce
@@ -18,11 +18,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3127303281840247854, guid: 3f367289887a77c4e8a95ce1088be364, type: 3}
       propertyPath: maxForce
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3127303281840247854, guid: 3f367289887a77c4e8a95ce1088be364, type: 3}
       propertyPath: maxSpeed
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3127303281840247854, guid: 3f367289887a77c4e8a95ce1088be364, type: 3}
       propertyPath: isGravity
@@ -104,9 +104,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pb: {fileID: 7959080677860900499}
   target: {fileID: 0}
-  wanderTime: 1
+  boundsScalar: 3
+  wanderTime: 2
   wanderRadius: 1
-  padding: 5
+  padding: 0
 --- !u!114 &7959080677860900499 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3127303281840247854, guid: 3f367289887a77c4e8a95ce1088be364, type: 3}
