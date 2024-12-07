@@ -121,7 +121,7 @@ MonoBehaviour:
   pb: {fileID: 8829172072982294676}
   target: {fileID: 0}
   boundsScalar: 3
-  radius: 0.5
+  radius: 0.7
   avoidanceRadius: 3
   wanderTime: 0.5
   wanderRadius: 1
