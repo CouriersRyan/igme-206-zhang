@@ -58,6 +58,7 @@ public class PhysicsObject : MonoBehaviour
     {
         cam = Camera.main;
         position = transform.position;
+        direction = Vector3.up;
     }
 
     void FixedUpdate()

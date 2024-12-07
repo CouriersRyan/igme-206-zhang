@@ -19,6 +19,8 @@ public abstract class Agent : MonoBehaviour
 
     protected Vector3 ultimaForce;
     protected Vector3 wanderPoint;
+    protected List<Obstacle> trackedObstacles = new List<Obstacle>();
+    protected Obstacle mainObstacle = null;
 
     // properties
     public float MaxSpeed
@@ -186,13 +188,21 @@ public abstract class Agent : MonoBehaviour
 
         return Vector3.zero;
     }
-
-    public void AvoidObstacles()
+    
+    /// <summary>
+    /// Get a steering force to avoid obstacles in the agent's path.
+    /// </summary>
+    /// <returns></returns>
+    public Vector3 AvoidObstacles()
     {
         
         List<Obstacle> allObstacles = ObstacleManager.Instance.obstacles;
-        List<Obstacle> toAvoid = new List<Obstacle>();
-
+        trackedObstacles.Clear();
+        Vector3 avoidanceForce = Vector3.zero;
+        Vector3 closestObstacleVector = Vector3.positiveInfinity;
+        mainObstacle = null;
+        
+        // iterate over every obstacle
         foreach (Obstacle obstacle in allObstacles)
         {
             Vector3 agentToObstacle = (obstacle.transform.position - transform.position);
@@ -203,16 +213,25 @@ public abstract class Agent : MonoBehaviour
                 if (Vector3.Dot(pb.Direction, agentToObstacle) > 0)
                 {
                     // 3. Do a Reynold's Intersect test.
-                    Vector2 right = new Vector2(pb.Direction.y, pb.Direction.x);
+                    Vector2 right = new Vector2(-pb.Direction.y, pb.Direction.x);
                     float projection = Vector2.Dot(right, agentToObstacle);
-                    if (projection <= obstacle.Radius + avoidanceRadius)
+                    if (Mathf.Abs(projection) <= obstacle.Radius + avoidanceRadius)
                     {
                         // 4. Is the object on the right or left, then steer to avoid it.
-
+                        // make sure that only the closest obstacle's force is applied if there are multiple.
+                        if (closestObstacleVector.sqrMagnitude > agentToObstacle.sqrMagnitude)
+                        {
+                            closestObstacleVector = agentToObstacle;
+                            mainObstacle = obstacle;
+                            // get a force in the opposite direction of the obstacle.
+                            avoidanceForce = MaxForce * (-right * projection).normalized;
+                        }
+                        trackedObstacles.Add(obstacle);
                     }
                 }
-                toAvoid.Add(obstacle);
             }
         }
+
+        return avoidanceForce;
     }
 }

@@ -13,6 +13,7 @@ public class Wanderer : Agent
     [SerializeField] private float padding = 20f;
 
     private float currWanderAngle = 0;
+    private Vector3 avoidanceForce;
 
     //methods
 
@@ -31,24 +32,57 @@ public class Wanderer : Agent
     {
         ultimaForce += Wander(ref currWanderAngle, Mathf.PI / 36, Mathf.PI / 4, wanderTime, wanderRadius);
         ultimaForce += StayInBounds(wanderTime, padding) * boundsScalar;
+        avoidanceForce = AvoidObstacles();
 
-        Vector3.ClampMagnitude(ultimaForce, MaxForce);
-        pb.ApplyForce(ultimaForce);
+        if (avoidanceForce.magnitude > 0)
+        {
+            pb.ApplyForce(avoidanceForce);
+        }
+        else
+        {
+            Vector3.ClampMagnitude(ultimaForce, MaxForce);
+            pb.ApplyForce(ultimaForce);
+        }
     }
 
     /// <summary>
-    /// Visualizes ultima force.
+    /// Visualizes variables for obstacle avoidance.
     /// </summary>
     private void OnDrawGizmos()
     {
+        // Agent collision radius
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, radius);
+        
+        // Avoidance Radius
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(transform.position, avoidanceRadius);
-        Gizmos.color = Color.black;
-        Gizmos.DrawLine(transform.position, GetFuturePosition(wanderTime));
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(GetFuturePosition(wanderTime), wanderRadius);
+        
+        // All obstacles in avoidance radius
+        foreach (var obstacle in trackedObstacles)
+        {
+            Gizmos.color = Color.black;
+            Gizmos.DrawLine(transform.position, obstacle.transform.position);
+        }
+
+        // Current obstalce being avoided.
+        if (mainObstacle != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawLine(transform.position, mainObstacle.transform.position);
+        }
+
+        // Avoidance force
+        Gizmos.color = Color.white;
+        Gizmos.DrawLine(transform.position, transform.position + avoidanceForce);
+        
+        // Right Vector
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawLine(transform.position, transform.position + new Vector3(-pb.Direction.y, pb.Direction.x, 0));
+        
+        // Forward Vector
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(transform.position, transform.position + pb.Direction);
     }
 
 }
